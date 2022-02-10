@@ -1,0 +1,9 @@
+<map id="include/controller/exercicios.h" name="include/controller/exercicios.h">
+<area shape="rect" id="node1" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="215,5,349,47"/>
+<area shape="rect" id="node2" href="$controller_8h.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="109,184,244,225"/>
+<area shape="rect" id="node5" href="$interpretador_8h.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="215,95,349,136"/>
+<area shape="rect" id="node7" href="$exercicios_8c.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="374,102,561,129"/>
+<area shape="rect" id="node3" href="$controller_8c.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="5,273,188,300"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="Ficheiro que contém a função principal do sistema de gestão de repositórios." alt="" coords="212,273,301,300"/>
+<area shape="rect" id="node6" href="$interpretador_8c.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="268,191,475,218"/>
+</map>

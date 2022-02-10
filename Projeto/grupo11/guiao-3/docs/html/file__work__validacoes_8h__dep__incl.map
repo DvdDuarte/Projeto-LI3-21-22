@@ -1,0 +1,11 @@
+<map id="include/model/File_Work/file_work_validacoes.h" name="include/model/File_Work/file_work_validacoes.h">
+<area shape="rect" id="node1" title="Ficheiro que contém as funções que para validar os ficheiros obtidos no exercício 1." alt="" coords="264,5,479,47"/>
+<area shape="rect" id="node2" href="$exercicios_8h.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="215,95,349,136"/>
+<area shape="rect" id="node9" href="$file__work__validacoes_8c.html" title="Ficheiro que contém as funções que para validar os ficheiros obtidos no exercício 1." alt="" coords="374,95,547,136"/>
+<area shape="rect" id="node3" href="$controller_8h.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="109,273,244,315"/>
+<area shape="rect" id="node6" href="$interpretador_8h.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="215,184,349,225"/>
+<area shape="rect" id="node8" href="$exercicios_8c.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="374,191,561,218"/>
+<area shape="rect" id="node4" href="$controller_8c.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="5,363,188,389"/>
+<area shape="rect" id="node5" href="$main_8c.html" title="Ficheiro que contém a função principal do sistema de gestão de repositórios." alt="" coords="212,363,301,389"/>
+<area shape="rect" id="node7" href="$interpretador_8c.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="268,281,475,307"/>
+</map>

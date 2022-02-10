@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de include/model/Catalogo_Repos/catalogo_repos.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 3
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('catalogo__repos_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">catalogo_repos.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="catalogo__repos_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef GRUPO11_CATALOGO_REPOS_H</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define GRUPO11_CATALOGO_REPOS_H</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;glib-2.0/glib.h&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;../../../include/model/Catalogo_Repos/repos.h&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="catalogo__repos_8h.html#ab3f3a634c61ba73c81bf7587c401a10e">   20</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structcatalogo__repos.html">catalogo_repos</a> <a class="code" href="structcatalogo__repos.html">NCREPOS</a>, *<a class="code" href="catalogo__repos_8h.html#af37ebbb57cac5182db38d87ccf236287">CREPOS</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<a class="code" href="structcatalogo__repos.html">CREPOS</a> <a class="code" href="catalogo__repos_8h.html#a492474c3c1cd6f942f9100e872d75fec">initCRepos</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span> <a class="code" href="catalogo__repos_8h.html#a5e18a083847e33b213c5217cb4cb6d54">set_CR_GRepos</a> (<a class="code" href="structcatalogo__repos.html">CREPOS</a> crepos, <a class="code" href="structrepos.html">LRepos</a> <a class="code" href="structrepos.html">repos</a>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">int</span> <a class="code" href="catalogo__repos_8h.html#a99f376d6d4b94aa8813c2827170086c1">get_CR_GHSize</a> (<a class="code" href="structcatalogo__repos.html">CREPOS</a> crepos);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/*DEBUG</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">void print_CR_GR_PTR(CREPOS c);</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif //GRUPO11_CATALOGO_REPOS_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="acatalogo__repos_8h_html_a492474c3c1cd6f942f9100e872d75fec"><div class="ttname"><a href="catalogo__repos_8h.html#a492474c3c1cd6f942f9100e872d75fec">initCRepos</a></div><div class="ttdeci">CREPOS initCRepos()</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__repos_8c_source.html#l00017">catalogo_repos.c:17</a></div></div>
+<div class="ttc" id="acatalogo__repos_8h_html_af37ebbb57cac5182db38d87ccf236287"><div class="ttname"><a href="catalogo__repos_8h.html#af37ebbb57cac5182db38d87ccf236287">CREPOS</a></div><div class="ttdeci">struct catalogo_repos * CREPOS</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__repos_8h_source.html#l00020">catalogo_repos.h:20</a></div></div>
+<div class="ttc" id="acatalogo__repos_8h_html_a99f376d6d4b94aa8813c2827170086c1"><div class="ttname"><a href="catalogo__repos_8h.html#a99f376d6d4b94aa8813c2827170086c1">get_CR_GHSize</a></div><div class="ttdeci">int get_CR_GHSize(CREPOS crepos)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__repos_8c_source.html#l00031">catalogo_repos.c:31</a></div></div>
+<div class="ttc" id="astructcatalogo__repos_html"><div class="ttname"><a href="structcatalogo__repos.html">catalogo_repos</a></div><div class="ttdef"><b>Definition:</b> <a href="catalogo__repos_8c_source.html#l00013">catalogo_repos.c:13</a></div></div>
+<div class="ttc" id="acatalogo__repos_8h_html_a5e18a083847e33b213c5217cb4cb6d54"><div class="ttname"><a href="catalogo__repos_8h.html#a5e18a083847e33b213c5217cb4cb6d54">set_CR_GRepos</a></div><div class="ttdeci">void set_CR_GRepos(CREPOS crepos, LRepos repos)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__repos_8c_source.html#l00023">catalogo_repos.c:23</a></div></div>
+<div class="ttc" id="astructrepos_html"><div class="ttname"><a href="structrepos.html">repos</a></div><div class="ttdef"><b>Definition:</b> <a href="repos_8c_source.html#l00013">repos.c:13</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_5c067e43b62dc1a915e487a737196819.html">model</a></li><li class="navelem"><a class="el" href="dir_86abe0a805eb133303de5182839292d8.html">Catalogo_Repos</a></li><li class="navelem"><a class="el" href="catalogo__repos_8h.html">catalogo_repos.h</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de src/model/queries/queries_estatisticas.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 3
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('queries__estatisticas_8c_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">queries_estatisticas.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="queries__estatisticas_8c.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;../../../include/model/queries/queries_estatisticas.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="queries__estatisticas_8c.html#a9dbc81af1474dad93a18cbf1df355a99">   12</a></span>&#160;<span class="preprocessor">#define buffer_size 1000000</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// Query 1</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="queries__estatisticas_8c.html#a65f9fd20c4c42ba5c43aa8f93ae1ed86">   15</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="queries__estatisticas_8c.html#a65f9fd20c4c42ba5c43aa8f93ae1ed86">query1</a>(<span class="keywordtype">int</span> indice, <a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>){</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    clock_t start = clock();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span>(indice != -1) {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        FILE *outstream = <a class="code" href="file__work__aux_8h.html#a760f5ba104c786fdf00df6a38193154b">output</a>(indice);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">if</span>(outstream == NULL)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            perror(<span class="stringliteral">&quot;Could not open file!&quot;</span>);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">int</span> bots = <a class="code" href="sgr_8h.html#abe223ca6c51addf8526b21a772dae59f">sgr_get_CU_bots</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordtype">int</span> org = <a class="code" href="sgr_8h.html#aa97850d4aca3ef78296d3960e9b85ebb">sgr_get_CU_org</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structuser.html">user</a> = <a class="code" href="sgr_8h.html#ae5dc00473489aae2bbbbcccf7b618cc0">sgr_get_CU_user</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        clock_t fim = clock() - start;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">int</span> msec = fim * 1000 / CLOCKS_PER_SEC;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="queries__output_8h.html#ad28058d760322bf47648a1f88c29ebab">query1_output</a>(outstream, bots, org, <a class="code" href="structuser.html">user</a>, msec);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        fclose(outstream);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>(indice == -1) {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">int</span> bots = <a class="code" href="sgr_8h.html#abe223ca6c51addf8526b21a772dae59f">sgr_get_CU_bots</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">int</span> org = <a class="code" href="sgr_8h.html#aa97850d4aca3ef78296d3960e9b85ebb">sgr_get_CU_org</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structuser.html">user</a> = <a class="code" href="sgr_8h.html#ae5dc00473489aae2bbbbcccf7b618cc0">sgr_get_CU_user</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        clock_t fim = clock() - start;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">int</span> msec = fim * 1000 / CLOCKS_PER_SEC;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="queries__output_8h.html#ad28058d760322bf47648a1f88c29ebab">query1_output</a>(NULL, bots, org, <a class="code" href="structuser.html">user</a>, msec);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="comment">//fprintf(stdout, &quot;Bot: %d\nOrganization: %d\nUser: %d\n&quot;, bots, org, user);</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">// Query 2</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="queries__estatisticas_8c.html#a4f963ab7efbb7ba515ec63a1cec5f2ab">   45</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="queries__estatisticas_8c.html#a4f963ab7efbb7ba515ec63a1cec5f2ab">query2</a>(<span class="keywordtype">int</span> indice, <a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>) {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    clock_t start = clock();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span>(indice != -1) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        FILE *outstream = <a class="code" href="file__work__aux_8h.html#a760f5ba104c786fdf00df6a38193154b">output</a>(indice);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">if</span>(outstream == NULL)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            perror(<span class="stringliteral">&quot;Could not open file!&quot;</span>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">float</span> avg;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordtype">int</span> colaboradores = <a class="code" href="sgr_8h.html#a4a696700be9710800e38bb785f99089a">sgr_get_CC_user</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structrepos.html">repos</a> = <a class="code" href="sgr_8h.html#af3a339247025885f0c4c58906694fb33">sgr_get_CC_repos</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        avg = colaboradores / <a class="code" href="structrepos.html">repos</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        clock_t fim = clock() - start;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">int</span> msec = fim * 1000 / CLOCKS_PER_SEC;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="queries__output_8h.html#a5a183c238d5d1140c58dc427f5840746">queries_pares_output</a>(outstream, 2, avg, msec);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="comment">//fprintf(outstream, &quot;%.2f\n&quot;, avg);</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        fclose(outstream);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span>(indice == -1) {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordtype">float</span> avg;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordtype">int</span> colaboradores = <a class="code" href="sgr_8h.html#a4a696700be9710800e38bb785f99089a">sgr_get_CC_user</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structrepos.html">repos</a> = <a class="code" href="sgr_8h.html#af3a339247025885f0c4c58906694fb33">sgr_get_CC_repos</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        avg = colaboradores / <a class="code" href="structrepos.html">repos</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        clock_t fim = clock() - start;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordtype">int</span> msec = fim * 1000 / CLOCKS_PER_SEC;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="queries__output_8h.html#a5a183c238d5d1140c58dc427f5840746">queries_pares_output</a>(NULL, 2, avg, msec);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">// Query 3</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="queries__estatisticas_8c.html#a8969ec0ab6c6524ab4819314c699a0bb">   78</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="queries__estatisticas_8c.html#a8969ec0ab6c6524ab4819314c699a0bb">query3</a>(<span class="keywordtype">int</span> indice, <a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    clock_t start = clock();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">int</span> bots = <a class="code" href="sgr_8h.html#ad09b0d254c5aeb3ec777abfc55be73d5">sgr_get_CC_bots</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span>(indice != -1) {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        FILE *outstream = <a class="code" href="file__work__aux_8h.html#a760f5ba104c786fdf00df6a38193154b">output</a>(indice);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">if</span>(outstream == NULL)</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            perror(<span class="stringliteral">&quot;Could not open file!&quot;</span>);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        clock_t fim = clock() - start;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordtype">int</span> msec = fim * 1000 / CLOCKS_PER_SEC;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="queries__output_8h.html#a3d7109a6f6158d40b37e942f9090c1a4">query3_output</a>(outstream, bots, msec);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="comment">//fprintf(outstream, &quot;%d\n&quot;, bots);</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    fclose(outstream);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        clock_t fim = clock() - start;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordtype">int</span> msec = fim * 1000 / CLOCKS_PER_SEC;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="queries__output_8h.html#a3d7109a6f6158d40b37e942f9090c1a4">query3_output</a>(NULL, bots, msec);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">// Query 4</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="queries__estatisticas_8c.html#ac833591b76fe95906e5f50d888dae779">  104</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="queries__estatisticas_8c.html#ac833591b76fe95906e5f50d888dae779">query4</a>(<span class="keywordtype">int</span> indice, <a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>) {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    clock_t start = clock();</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">int</span> nusers = <a class="code" href="sgr_8h.html#a4a696700be9710800e38bb785f99089a">sgr_get_CC_user</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">int</span> ncommits = <a class="code" href="sgr_8h.html#aaf70540c80731687f5e85f22614d768f">sgr_get_CC_total_commits</a>(<a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">float</span> avg = ncommits / nusers;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">if</span>(indice != -1) {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        FILE *outstream = <a class="code" href="file__work__aux_8h.html#a760f5ba104c786fdf00df6a38193154b">output</a>(indice);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">if</span>(outstream == NULL)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            perror(<span class="stringliteral">&quot;Could not open file!&quot;</span>);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        clock_t fim = clock() - start;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordtype">int</span> msec = fim * 1000 / CLOCKS_PER_SEC;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="queries__output_8h.html#a5a183c238d5d1140c58dc427f5840746">queries_pares_output</a>(outstream, 4, avg, msec);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="comment">//fprintf(outstream, &quot;%.2f\n&quot;, avg);</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    fclose(outstream);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        clock_t fim = clock() - start;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordtype">int</span> msec = fim * 1000 / CLOCKS_PER_SEC;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <a class="code" href="queries__output_8h.html#a5a183c238d5d1140c58dc427f5840746">queries_pares_output</a>(NULL, 4, avg, msec);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="asgr_8h_html_ad09b0d254c5aeb3ec777abfc55be73d5"><div class="ttname"><a href="sgr_8h.html#ad09b0d254c5aeb3ec777abfc55be73d5">sgr_get_CC_bots</a></div><div class="ttdeci">int sgr_get_CC_bots(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00066">sgr.c:66</a></div></div>
+<div class="ttc" id="asgr_8h_html_a4a696700be9710800e38bb785f99089a"><div class="ttname"><a href="sgr_8h.html#a4a696700be9710800e38bb785f99089a">sgr_get_CC_user</a></div><div class="ttdeci">int sgr_get_CC_user(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00058">sgr.c:58</a></div></div>
+<div class="ttc" id="astructuser_html"><div class="ttname"><a href="structuser.html">user</a></div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00013">users.c:13</a></div></div>
+<div class="ttc" id="aqueries__estatisticas_8c_html_a8969ec0ab6c6524ab4819314c699a0bb"><div class="ttname"><a href="queries__estatisticas_8c.html#a8969ec0ab6c6524ab4819314c699a0bb">query3</a></div><div class="ttdeci">void query3(int indice, SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="queries__estatisticas_8c_source.html#l00078">queries_estatisticas.c:78</a></div></div>
+<div class="ttc" id="aqueries__output_8h_html_ad28058d760322bf47648a1f88c29ebab"><div class="ttname"><a href="queries__output_8h.html#ad28058d760322bf47648a1f88c29ebab">query1_output</a></div><div class="ttdeci">void query1_output(FILE *outstream, int bots, int org, int user, int time)</div><div class="ttdoc">Função que imprime os resultados da query 1.</div><div class="ttdef"><b>Definition:</b> <a href="queries__output_8c_source.html#l00014">queries_output.c:14</a></div></div>
+<div class="ttc" id="aqueries__estatisticas_8c_html_ac833591b76fe95906e5f50d888dae779"><div class="ttname"><a href="queries__estatisticas_8c.html#ac833591b76fe95906e5f50d888dae779">query4</a></div><div class="ttdeci">void query4(int indice, SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="queries__estatisticas_8c_source.html#l00104">queries_estatisticas.c:104</a></div></div>
+<div class="ttc" id="aqueries__estatisticas_8c_html_a65f9fd20c4c42ba5c43aa8f93ae1ed86"><div class="ttname"><a href="queries__estatisticas_8c.html#a65f9fd20c4c42ba5c43aa8f93ae1ed86">query1</a></div><div class="ttdeci">void query1(int indice, SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="queries__estatisticas_8c_source.html#l00015">queries_estatisticas.c:15</a></div></div>
+<div class="ttc" id="asgr_8h_html_aa97850d4aca3ef78296d3960e9b85ebb"><div class="ttname"><a href="sgr_8h.html#aa97850d4aca3ef78296d3960e9b85ebb">sgr_get_CU_org</a></div><div class="ttdeci">int sgr_get_CU_org(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00050">sgr.c:50</a></div></div>
+<div class="ttc" id="aqueries__output_8h_html_a5a183c238d5d1140c58dc427f5840746"><div class="ttname"><a href="queries__output_8h.html#a5a183c238d5d1140c58dc427f5840746">queries_pares_output</a></div><div class="ttdeci">void queries_pares_output(FILE *outstream, int flag, float avg, int time)</div><div class="ttdoc">Função que imprime os resultados da query 2 e 4.</div><div class="ttdef"><b>Definition:</b> <a href="queries__output_8c_source.html#l00072">queries_output.c:72</a></div></div>
+<div class="ttc" id="astructsgr_html"><div class="ttname"><a href="structsgr.html">sgr</a></div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00014">sgr.c:14</a></div></div>
+<div class="ttc" id="asgr_8h_html_aaf70540c80731687f5e85f22614d768f"><div class="ttname"><a href="sgr_8h.html#aaf70540c80731687f5e85f22614d768f">sgr_get_CC_total_commits</a></div><div class="ttdeci">int sgr_get_CC_total_commits(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00070">sgr.c:70</a></div></div>
+<div class="ttc" id="astructrepos_html"><div class="ttname"><a href="structrepos.html">repos</a></div><div class="ttdef"><b>Definition:</b> <a href="repos_8c_source.html#l00013">repos.c:13</a></div></div>
+<div class="ttc" id="asgr_8h_html_ae5dc00473489aae2bbbbcccf7b618cc0"><div class="ttname"><a href="sgr_8h.html#ae5dc00473489aae2bbbbcccf7b618cc0">sgr_get_CU_user</a></div><div class="ttdeci">int sgr_get_CU_user(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00054">sgr.c:54</a></div></div>
+<div class="ttc" id="aqueries__estatisticas_8c_html_a4f963ab7efbb7ba515ec63a1cec5f2ab"><div class="ttname"><a href="queries__estatisticas_8c.html#a4f963ab7efbb7ba515ec63a1cec5f2ab">query2</a></div><div class="ttdeci">void query2(int indice, SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="queries__estatisticas_8c_source.html#l00045">queries_estatisticas.c:45</a></div></div>
+<div class="ttc" id="asgr_8h_html_abe223ca6c51addf8526b21a772dae59f"><div class="ttname"><a href="sgr_8h.html#abe223ca6c51addf8526b21a772dae59f">sgr_get_CU_bots</a></div><div class="ttdeci">int sgr_get_CU_bots(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00046">sgr.c:46</a></div></div>
+<div class="ttc" id="afile__work__aux_8h_html_a760f5ba104c786fdf00df6a38193154b"><div class="ttname"><a href="file__work__aux_8h.html#a760f5ba104c786fdf00df6a38193154b">output</a></div><div class="ttdeci">FILE * output(int indice)</div><div class="ttdoc">Função auxiliar na leitura de ficheiros. Função que dado um indice cria um ficheiro com o nome de aco...</div><div class="ttdef"><b>Definition:</b> <a href="file__work__aux_8c_source.html#l00039">file_work_aux.c:39</a></div></div>
+<div class="ttc" id="aqueries__output_8h_html_a3d7109a6f6158d40b37e942f9090c1a4"><div class="ttname"><a href="queries__output_8h.html#a3d7109a6f6158d40b37e942f9090c1a4">query3_output</a></div><div class="ttdeci">void query3_output(FILE *outstream, int bots, int time)</div><div class="ttdoc">Função que imprime os resultados da query 3.</div><div class="ttdef"><b>Definition:</b> <a href="queries__output_8c_source.html#l00124">queries_output.c:124</a></div></div>
+<div class="ttc" id="asgr_8h_html_af3a339247025885f0c4c58906694fb33"><div class="ttname"><a href="sgr_8h.html#af3a339247025885f0c4c58906694fb33">sgr_get_CC_repos</a></div><div class="ttdeci">int sgr_get_CC_repos(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00062">sgr.c:62</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_5dd65160827af56e6353642206b80129.html">model</a></li><li class="navelem"><a class="el" href="dir_f8be5d6b3a7c130e75012011d025fb81.html">queries</a></li><li class="navelem"><a class="el" href="queries__estatisticas_8c.html">queries_estatisticas.c</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>

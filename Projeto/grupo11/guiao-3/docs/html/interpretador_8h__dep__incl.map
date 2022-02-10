@@ -1,0 +1,7 @@
+<map id="include/controller/interpretador.h" name="include/controller/interpretador.h">
+<area shape="rect" id="node1" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="207,5,341,47"/>
+<area shape="rect" id="node2" href="$controller_8h.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="109,95,244,136"/>
+<area shape="rect" id="node5" href="$interpretador_8c.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="268,102,475,129"/>
+<area shape="rect" id="node3" href="$controller_8c.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="5,184,188,211"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="Ficheiro que contém a função principal do sistema de gestão de repositórios." alt="" coords="212,184,301,211"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="include/model/queries/queries_parametrizaveis.h" name="include/model/queries/queries_parametrizaveis.h">
+<area shape="rect" id="node1" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="1013,5,1211,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,527,72,553"/>
+<area shape="rect" id="node3" title=" " alt="" coords="377,527,447,553"/>
+<area shape="rect" id="node4" title=" " alt="" coords="471,527,542,553"/>
+<area shape="rect" id="node5" href="$sgr_8h.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="875,95,1026,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="887,452,998,479"/>
+<area shape="rect" id="node7" href="$catalogo__commits_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de commits." alt="" coords="638,184,797,225"/>
+<area shape="rect" id="node15" href="$catalogo__repos_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de repos." alt="" coords="919,184,1118,225"/>
+<area shape="rect" id="node16" href="$catalogo__users_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de users." alt="" coords="788,273,977,315"/>
+<area shape="rect" id="node18" href="$view_8h.html" title="Ficheiro que contém as funções para apresentar as diferentes partes da interface." alt="" coords="71,452,193,479"/>
+<area shape="rect" id="node8" href="$commits_8h.html" title="Ficheiro que contém as funções que para trabalhar com os commits." alt="" coords="147,363,370,404"/>
+<area shape="rect" id="node12" href="$repos_8h.html" title="Ficheiro que contém as funções que para trabalhar com os repos." alt="" coords="503,281,694,307"/>
+<area shape="rect" id="node9" href="$Funcoes__Aux_8h.html" title="Ficheiro que contém as funções auxiliares." alt="" coords="341,452,472,479"/>
+<area shape="rect" id="node11" href="$Data_8h.html" title="Ficheiro que contém as funções que para trabalhar com o tipo de LTempo." alt="" coords="220,452,297,479"/>
+<area shape="rect" id="node10" title=" " alt="" coords="282,527,353,553"/>
+<area shape="rect" id="node13" title=" " alt="" coords="444,370,527,397"/>
+<area shape="rect" id="node14" href="$ghash__func__gerais_8h.html" title="Ficheiro que contém as funções para trabalhar com *GHashTable." alt="" coords="799,370,966,397"/>
+<area shape="rect" id="node17" href="$users_8h.html" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="551,363,723,404"/>
+<area shape="rect" id="node19" title=" " alt="" coords="96,527,160,553"/>
+<area shape="rect" id="node20" href="$colors_8h.html" title="Ficheiro que contém as cores a serem usadas na interface da aplicação." alt="" coords="185,527,258,553"/>
+</map>

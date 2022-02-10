@@ -1,0 +1,26 @@
+<map id="include/model/Catalogo_User/users.h" name="include/model/Catalogo_User/users.h">
+<area shape="rect" id="node1" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="500,5,676,47"/>
+<area shape="rect" id="node2" href="$catalogo__users_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de users." alt="" coords="596,95,772,136"/>
+<area shape="rect" id="node20" href="$queries__output_8h.html" title="Ficheiro que contém as funções para apresentar os resultados das queries." alt="" coords="415,95,571,136"/>
+<area shape="rect" id="node22" href="$file__work__validacoes_8h.html" title="Ficheiro que contém as funções que para validar os ficheiros obtidos no exercício 1." alt="" coords="109,95,323,136"/>
+<area shape="rect" id="node24" href="$users_8c.html" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="797,95,945,136"/>
+<area shape="rect" id="node3" href="$sgr_8h.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="580,199,753,225"/>
+<area shape="rect" id="node17" href="$catalogs__file__work_8h.html" title="Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos." alt="" coords="974,184,1122,240"/>
+<area shape="rect" id="node19" href="$catalogo__users_8c.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de users." alt="" coords="778,191,950,233"/>
+<area shape="rect" id="node4" href="$queries__estatisticas_8h.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="428,288,596,329"/>
+<area shape="rect" id="node8" href="$exercicios_8h.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="121,377,255,419"/>
+<area shape="rect" id="node13" href="$maintests_8c.html" title=" " alt="" coords="596,385,793,411"/>
+<area shape="rect" id="node14" href="$queries__parametrizaveis_8h.html" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="727,288,926,329"/>
+<area shape="rect" id="node16" href="$sgr_8c.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="951,295,1095,322"/>
+<area shape="rect" id="node5" href="$controller_8h.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="333,556,467,597"/>
+<area shape="rect" id="node11" href="$exercicios_8c.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="335,474,521,501"/>
+<area shape="rect" id="node12" href="$queries__estatisticas_8c.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="279,377,470,419"/>
+<area shape="rect" id="node6" href="$controller_8c.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="229,645,411,672"/>
+<area shape="rect" id="node7" href="$main_8c.html" title="Ficheiro que contém a função principal do sistema de gestão de repositórios." alt="" coords="435,645,525,672"/>
+<area shape="rect" id="node9" href="$interpretador_8h.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="175,467,310,508"/>
+<area shape="rect" id="node10" href="$interpretador_8c.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="634,563,841,590"/>
+<area shape="rect" id="node15" href="$queries__parametrizaveis_8c.html" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="919,377,1110,419"/>
+<area shape="rect" id="node18" href="$catalogs__file__work_8c.html" title="Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos." alt="" coords="1119,288,1278,329"/>
+<area shape="rect" id="node21" href="$queries__output_8c.html" title=" " alt="" coords="286,199,474,225"/>
+<area shape="rect" id="node23" href="$file__work__validacoes_8c.html" title="Ficheiro que contém as funções que para validar os ficheiros obtidos no exercício 1." alt="" coords="5,191,179,233"/>
+</map>

@@ -1,0 +1,554 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Referência ao ficheiro include/model/File_Work/catalogs_file_work.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 3
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('catalogs__file__work_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência ao ficheiro catalogs_file_work.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;glib-2.0/glib.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="catalogo__users_8h_source.html">../Catalogo_User/catalogo_users.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="catalogo__commits_8h_source.html">../Catalogo_Commits/catalogo_commits.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="catalogo__repos_8h_source.html">../Catalogo_Repos/catalogo_repos.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="file__work__aux_8h_source.html">file_work_aux.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Diagrama de dependências de inclusão para catalogs_file_work.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="catalogs__file__work_8h__incl.png" border="0" usemap="#include_2model_2File__Work_2catalogs__file__work_8h" alt=""/></div>
+<map name="include_2model_2File__Work_2catalogs__file__work_8h" id="include_2model_2File__Work_2catalogs__file__work_8h">
+<area shape="rect" title="Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos." alt="" coords="207,5,355,61"/>
+<area shape="rect" title=" " alt="" coords="88,452,155,479"/>
+<area shape="rect" title=" " alt="" coords="179,452,250,479"/>
+<area shape="rect" title=" " alt="" coords="727,452,798,479"/>
+<area shape="rect" title=" " alt="" coords="419,377,530,404"/>
+<area shape="rect" href="catalogo__users_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de users." alt="" coords="363,199,552,240"/>
+<area shape="rect" href="catalogo__commits_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de commits." alt="" coords="846,109,1005,151"/>
+<area shape="rect" href="catalogo__repos_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de repos." alt="" coords="343,109,542,151"/>
+<area shape="rect" href="file__work__aux_8h.html" title="Ficheiro que contém as funções auxiliares para trabalhar os ficheiros." alt="" coords="94,295,218,322"/>
+<area shape="rect" href="users_8h.html" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="630,288,802,329"/>
+<area shape="rect" href="ghash__func__gerais_8h.html" title="Ficheiro que contém as funções para trabalhar com *GHashTable." alt="" coords="395,288,554,329"/>
+<area shape="rect" href="Funcoes__Aux_8h.html" title="Ficheiro que contém as funções auxiliares." alt="" coords="651,377,781,404"/>
+<area shape="rect" href="Data_8h.html" title="Ficheiro que contém as funções que para trabalhar com o tipo de LTempo." alt="" coords="1107,377,1184,404"/>
+<area shape="rect" title=" " alt="" coords="633,452,703,479"/>
+<area shape="rect" href="commits_8h.html" title="Ficheiro que contém as funções que para trabalhar com os commits." alt="" coords="1034,288,1257,329"/>
+<area shape="rect" href="repos_8h.html" title="Ficheiro que contém as funções que para trabalhar com os repos." alt="" coords="757,206,947,233"/>
+<area shape="rect" title=" " alt="" coords="877,295,960,322"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro:</div>
+<div class="dyncontent">
+<div class="center"><img src="catalogs__file__work_8h__dep__incl.png" border="0" usemap="#include_2model_2File__Work_2catalogs__file__work_8hdep" alt=""/></div>
+<map name="include_2model_2File__Work_2catalogs__file__work_8hdep" id="include_2model_2File__Work_2catalogs__file__work_8hdep">
+<area shape="rect" title="Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos." alt="" coords="99,5,247,61"/>
+<area shape="rect" href="catalogs__file__work_8c.html" title="Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos." alt="" coords="5,109,164,151"/>
+<area shape="rect" href="sgr_8c.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="189,117,333,143"/>
+</map>
+</div>
+</div>
+<p><a href="catalogs__file__work_8h_source.html">Ir para o código fonte deste ficheiro.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a9dbc81af1474dad93a18cbf1df355a99"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalogs__file__work_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>&#160;&#160;&#160;1000000</td></tr>
+<tr class="separator:a9dbc81af1474dad93a18cbf1df355a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a43dde99069f434aeb8eb7d033732805b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="catalogo__users_8h.html#a8683c4f865ecdc0fd042a966dbb523b9">CUSER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalogs__file__work_8h.html#a43dde99069f434aeb8eb7d033732805b">ler_file_user</a> (<a class="el" href="catalogo__users_8h.html#a8683c4f865ecdc0fd042a966dbb523b9">CUSER</a> <a class="el" href="structcatalogo__user.html">catalogo_user</a>, char *filepath)</td></tr>
+<tr class="separator:a43dde99069f434aeb8eb7d033732805b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab40c4b2626ffd8c5c20b1e5c087ca56b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="catalogo__commits_8h.html#aa282a65e9f860e7fa3f0a182fdcfc08b">CCOMMITS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalogs__file__work_8h.html#ab40c4b2626ffd8c5c20b1e5c087ca56b">ler_file_commits</a> (<a class="el" href="catalogo__users_8h.html#a8683c4f865ecdc0fd042a966dbb523b9">CUSER</a> catalogo_users, <a class="el" href="catalogo__commits_8h.html#aa282a65e9f860e7fa3f0a182fdcfc08b">CCOMMITS</a> <a class="el" href="structcatalogo__commits.html">catalogo_commits</a>, char *filepath)</td></tr>
+<tr class="separator:ab40c4b2626ffd8c5c20b1e5c087ca56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f1028611712b83523b872d904379a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="catalogo__repos_8h.html#af37ebbb57cac5182db38d87ccf236287">CREPOS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="catalogs__file__work_8h.html#a22f1028611712b83523b872d904379a8">ler_file_repos</a> (<a class="el" href="catalogo__users_8h.html#a8683c4f865ecdc0fd042a966dbb523b9">CUSER</a> catalogo_users, <a class="el" href="catalogo__commits_8h.html#aa282a65e9f860e7fa3f0a182fdcfc08b">CCOMMITS</a> <a class="el" href="structcatalogo__commits.html">catalogo_commits</a>, <a class="el" href="catalogo__repos_8h.html#af37ebbb57cac5182db38d87ccf236287">CREPOS</a> <a class="el" href="structcatalogo__repos.html">catalogo_repos</a>, char *filepath)</td></tr>
+<tr class="separator:a22f1028611712b83523b872d904379a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos. </p>
+<dl class="section author"><dt>Autor</dt><dd>grupo11 </dd></dl>
+<dl class="section version"><dt>Versão</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>2022-02-07</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2022 </dd></dl>
+
+<p class="definition">Definido no ficheiro <a class="el" href="catalogs__file__work_8h_source.html">catalogs_file_work.h</a>.</p>
+</div><h2 class="groupheader">Documentação das macros</h2>
+<a id="a9dbc81af1474dad93a18cbf1df355a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbc81af1474dad93a18cbf1df355a99">&#9670;&nbsp;</a></span>buffer_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define buffer_size&#160;&#160;&#160;1000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definido na linha <a class="el" href="catalogs__file__work_8h_source.html#l00023">23</a> do ficheiro <a class="el" href="catalogs__file__work_8h_source.html">catalogs_file_work.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="ab40c4b2626ffd8c5c20b1e5c087ca56b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab40c4b2626ffd8c5c20b1e5c087ca56b">&#9670;&nbsp;</a></span>ler_file_commits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="catalogo__commits_8h.html#aa282a65e9f860e7fa3f0a182fdcfc08b">CCOMMITS</a> ler_file_commits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="catalogo__users_8h.html#a8683c4f865ecdc0fd042a966dbb523b9">CUSER</a>&#160;</td>
+          <td class="paramname"><em>catalogo_users</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="catalogo__commits_8h.html#aa282a65e9f860e7fa3f0a182fdcfc08b">CCOMMITS</a>&#160;</td>
+          <td class="paramname"><em>catalogo_commits</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>filepath</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Função que lê o ficheiro com os dados dos commits e armazena num Catálogo de commits </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">catalogo_users</td><td>O catálogo de users que vai ser utilizado pra realizar validações </td></tr>
+    <tr><td class="paramname">filepath</td><td>O caminho e o nome do ficheiro a ler dos commits </td></tr>
+    <tr><td class="paramname"><a class="el" href="structcatalogo__commits.html">catalogo_commits</a></td><td>O catálogo de commits onde vai ser armazenada a informção do ficheiro lido </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>O catálogo de commits que contém a informação necessária pra ser usada nas queries </dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="catalogs__file__work_8c_source.html#l00077">77</a> do ficheiro <a class="el" href="catalogs__file__work_8c_source.html">catalogs_file_work.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                                                                           {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="file__work__validacoes_8h.html#a38f7a0dcca681e41275be456cfbf7b6d">imprime_file_repos_aux</a>(filepath);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    GArray *commit_list;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    commit_list = g_array_new(FALSE, FALSE, <span class="keyword">sizeof</span>(<a class="code" href="structcommit.html">LCommits</a>));</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    FILE *leitura, *escritaAux;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    leitura = fopen(filepath,<span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    escritaAux = fopen(<span class="stringliteral">&quot;saida/commits-aux.csv&quot;</span>, <span class="stringliteral">&quot;w&quot;</span>);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">if</span>(leitura == NULL) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        perror(<span class="stringliteral">&quot;File not found - commits-g2.csv!&quot;</span>);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    GHashTable *reposID = <a class="code" href="file__work__aux_8h.html#aa56d365acb3cd32f94bab1cfe7267488">ler_file_aux</a>(<span class="stringliteral">&quot;saida/repos-aux.csv&quot;</span>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">if</span>(reposID == NULL) {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        perror(<span class="stringliteral">&quot;File not found - repos-aux.csv!&quot;</span>);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">char</span> buffer[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">char</span> *buffer2;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">int</span> i=0;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="structcommit.html">LCommits</a> <a class="code" href="structcommit.html">commit</a>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    fgets(buffer, <a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>, leitura);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">int</span> existe_user = 0, existe_repo = 0, nusers = 0, nrepos = 0, nbots = 0, ncommits = 0, commiter_id = 0;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a> tipo_user = <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">INVALID</a>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">while</span>(fgets(buffer, <a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>, leitura)) {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        buffer2 = strdup(buffer);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="structcommit.html">commit</a> = <a class="code" href="commits_8h.html#a7d0c417ccf423cc30053b79c608d735b">build_Commit</a>(buffer2);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        commiter_id = <a class="code" href="commits_8h.html#a1e20f6d9f4410fe06731b7121c0e26e5">get_Committer_ID</a>(<a class="code" href="structcommit.html">commit</a>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        fprintf(escritaAux, <span class="stringliteral">&quot;%d;\n&quot;</span>, commiter_id);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="catalogo__users_8h.html#a7cbb1a7f6454893e7a5d39889481c51f">verifica_CU_User</a>(catalogo_users, commiter_id) &amp;&amp; <a class="code" href="commits_8h.html#afda7a5de4d1863889042b0e00b76df62">verifica_repos_commit</a>(<a class="code" href="structcommit.html">commit</a>, reposID)) {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <a class="code" href="commits_8h.html#ac1c9619c92faf6cd3f8bc1e763522b4a">GAddCommit</a>(<a class="code" href="structcommit.html">commit</a>, commit_list);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">if</span>(i!= <a class="code" href="commits_8h.html#ab24c01d9744df4f206e72cd911962f39">get_Author_ID</a>(<a class="code" href="structcommit.html">commit</a>)) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                <a class="code" href="catalogo__commits_8h.html#a84e4e22a8a7e029954d53752ebb697ef">GAdduserid</a>(<a class="code" href="commits_8h.html#ab24c01d9744df4f206e72cd911962f39">get_Author_ID</a>(<a class="code" href="structcommit.html">commit</a>), <a class="code" href="structcatalogo__commits.html">catalogo_commits</a>);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                i= <a class="code" href="commits_8h.html#ab24c01d9744df4f206e72cd911962f39">get_Author_ID</a>(<a class="code" href="structcommit.html">commit</a>);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <a class="code" href="catalogo__commits_8h.html#a4b2b2129cbe39ee71800ebca39a1c480">add_CC_GOcorr</a>(<a class="code" href="commits_8h.html#ab24c01d9744df4f206e72cd911962f39">get_Author_ID</a>(<a class="code" href="structcommit.html">commit</a>),<a class="code" href="structcatalogo__commits.html">catalogo_commits</a>);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            tipo_user = <a class="code" href="users_8h.html#a38f06fcf7b9edfba3122e3c24ab450d9">get_Type</a>(<a class="code" href="catalogo__users_8h.html#a2895d6af3ff41222e24afadcadcd8103">get_CU_GUser</a>(catalogo_users, commiter_id));</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            existe_user = <a class="code" href="catalogo__commits_8h.html#a22c9cffb1fa7034dfd561658510002ba">set_CC_GHashTable</a>(<a class="code" href="structcatalogo__commits.html">catalogo_commits</a>, <a class="code" href="structcommit.html">commit</a>,0); <span class="comment">//adiciona o commit a um garray que vai ser inserido na hashtable e indica se a chave ja existia ou não</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            existe_repo = <a class="code" href="catalogo__commits_8h.html#a22c9cffb1fa7034dfd561658510002ba">set_CC_GHashTable</a>(<a class="code" href="structcatalogo__commits.html">catalogo_commits</a>, <a class="code" href="structcommit.html">commit</a>,1); <span class="comment">//adiciona o commit a um garray que vai ser inserido na hashtable e indica se a chave ja exist1a ou não</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <span class="keywordflow">if</span>(!existe_user) {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                <span class="keywordflow">if</span> (tipo_user == <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e">BOT</a>)</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                    nbots++;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (tipo_user == <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b">USER</a>)</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                    nusers++;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            }</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            <span class="keywordflow">if</span>(!existe_repo) {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                nrepos++;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                existe_repo = 0;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            ncommits++;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        } <span class="keywordflow">else</span> <a class="code" href="commits_8h.html#a5c08a13177f56e0f2512eb8a7b0e953d">free_Commit</a>(<a class="code" href="structcommit.html">commit</a>);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <a class="code" href="catalogo__commits_8h.html#a9057f7e8efcfeb03b6e5dbdb3351f5dc">set_CC_GCommits</a>(<a class="code" href="structcatalogo__commits.html">catalogo_commits</a>, commit_list);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <a class="code" href="catalogo__commits_8h.html#aa3cd3c49cf47e9eff75ee9a84f02b1f2">set_CC_Nrepos</a>(<a class="code" href="structcatalogo__commits.html">catalogo_commits</a>, nrepos);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="catalogo__commits_8h.html#a28bccaa300a3939ea58d6fdd0b9de326">set_CC_Nusers</a>(<a class="code" href="structcatalogo__commits.html">catalogo_commits</a>, nusers);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <a class="code" href="catalogo__commits_8h.html#add8084fd090019fefb4b59ae63d83ea9">set_CC_Nbots</a>(<a class="code" href="structcatalogo__commits.html">catalogo_commits</a>, nbots);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <a class="code" href="catalogo__commits_8h.html#aa19f1839cc32744581d3e71fe57ab013">set_CC_total_commits</a>(<a class="code" href="structcatalogo__commits.html">catalogo_commits</a>,ncommits);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    fclose(leitura);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    fclose(escritaAux);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="comment">//GHashTable_free(reposID);</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="structcatalogo__commits.html">catalogo_commits</a>;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a22f1028611712b83523b872d904379a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f1028611712b83523b872d904379a8">&#9670;&nbsp;</a></span>ler_file_repos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="catalogo__repos_8h.html#af37ebbb57cac5182db38d87ccf236287">CREPOS</a> ler_file_repos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="catalogo__users_8h.html#a8683c4f865ecdc0fd042a966dbb523b9">CUSER</a>&#160;</td>
+          <td class="paramname"><em>catalogo_users</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="catalogo__commits_8h.html#aa282a65e9f860e7fa3f0a182fdcfc08b">CCOMMITS</a>&#160;</td>
+          <td class="paramname"><em>catalogo_commits</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="catalogo__repos_8h.html#af37ebbb57cac5182db38d87ccf236287">CREPOS</a>&#160;</td>
+          <td class="paramname"><em>catalogo_repos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>filepath</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Função que lê o ficheiro com os dados dos repos e armazena num Catálogo de repos </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">catalogo_users</td><td>O catálogo de users que vai ser utilizado pra realizar validações </td></tr>
+    <tr><td class="paramname"><a class="el" href="structcatalogo__commits.html">catalogo_commits</a></td><td>O catálogo de commits que vai ser utilizado pra realizar validações </td></tr>
+    <tr><td class="paramname"><a class="el" href="structcatalogo__repos.html">catalogo_repos</a></td><td>O catálogo de repos onde vai ser armazenada a informção do ficheiro lido </td></tr>
+    <tr><td class="paramname">filepath</td><td>O caminho e o nome do ficheiro a ler dos repos </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>O catálogo de repos que contém a informação necessária pra ser usada nas queries </dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="catalogs__file__work_8c_source.html#l00161">161</a> do ficheiro <a class="el" href="catalogs__file__work_8c_source.html">catalogs_file_work.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                                                                                                               {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160; </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    FILE *leitura;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="comment">//catalogo_repos = NULL;</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    leitura = fopen(filepath,<span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">if</span>(leitura == NULL) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        perror(<span class="stringliteral">&quot;File not found - repos-g2.csv!&quot;</span>);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordtype">char</span> buffer[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordtype">char</span> *buffer2;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordtype">int</span> i = 0;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <a class="code" href="structrepos.html">LRepos</a> repo;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="comment">//GHashTable *commitsReposID = ler_file_aux(&quot;../saida/commits-aux.csv&quot;);</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    fgets(buffer, <a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>, leitura);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">while</span>(fgets(buffer,<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>, leitura)) {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        buffer2 = strdup(buffer);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        repo = <a class="code" href="repos_8h.html#ad36adca910f080c214e50fa47613f694">build_Repos</a>(buffer2);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordflow">if</span>(repo != NULL &amp;&amp; <a class="code" href="catalogo__users_8h.html#a7cbb1a7f6454893e7a5d39889481c51f">verifica_CU_User</a>(catalogo_users, <a class="code" href="repos_8h.html#a99d49e46d92301137822381b65fde304">get_Owner_ID</a>(repo))){<span class="comment">//&amp;&amp; verifica_CC_reposID(catalogo_commits,repo)) {</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <a class="code" href="catalogo__repos_8h.html#a5e18a083847e33b213c5217cb4cb6d54">set_CR_GRepos</a>(<a class="code" href="structcatalogo__repos.html">catalogo_repos</a>, repo);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        } <span class="keywordflow">else</span> <a class="code" href="repos_8h.html#afc91f89fbdeb16250692a1c3dd74a756">free_Repos</a>(repo);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        i++;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    fclose(leitura);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="structcatalogo__repos.html">catalogo_repos</a>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a43dde99069f434aeb8eb7d033732805b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43dde99069f434aeb8eb7d033732805b">&#9670;&nbsp;</a></span>ler_file_user()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="catalogo__users_8h.html#a8683c4f865ecdc0fd042a966dbb523b9">CUSER</a> ler_file_user </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="catalogo__users_8h.html#a8683c4f865ecdc0fd042a966dbb523b9">CUSER</a>&#160;</td>
+          <td class="paramname"><em>catalogo_user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>filepath</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Função que lê o ficheiro com os dados dos users e armazena num Catálogo de users </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filepath</td><td>O caminho e o nome do ficheiro a ler dos users </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>O catálogo de users que contém a informação necessária pra ser usada nas queries </dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="catalogs__file__work_8c_source.html#l00016">16</a> do ficheiro <a class="el" href="catalogs__file__work_8c_source.html">catalogs_file_work.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                         {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    FILE *leitura;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    leitura = fopen(filepath,<span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span>(leitura == NULL) {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        perror(<span class="stringliteral">&quot;File not found - users-g2.csv!&quot;</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">char</span> buffer[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">char</span> *buffer2;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> bots = 0;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">int</span> org = 0;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">int</span> nuser = 0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">int</span> invalids = 0;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="structuser.html">LUSER</a> <a class="code" href="structuser.html">user</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    fgets(buffer, <a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>, leitura);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">while</span>(fgets(buffer,<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>, leitura)) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        buffer2 = strdup(buffer);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="structuser.html">user</a> = <a class="code" href="users_8h.html#a4291a4ef910f091d4582cc44069e8bcd">build_User</a>(buffer2);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="catalogo__users_8h.html#a4d9febdc4727a3d589166a0583d23831">add_CU_GUser</a>(<a class="code" href="structcatalogo__user.html">catalogo_user</a>,<a class="code" href="structuser.html">user</a>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">switch</span>(<a class="code" href="users_8h.html#a38f06fcf7b9edfba3122e3c24ab450d9">get_Type</a>(<a class="code" href="structuser.html">user</a>)) {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">case</span> 0 :</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                bots++;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">case</span> 1 :</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                org++;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">case</span> 2 :</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                nuser++;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">INVALID</a>:</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                invalids++;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            default :</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                printf(<span class="stringliteral">&quot;Reading...&quot;</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="catalogo__users_8h.html#ab6545b03a1d25bf981f14578e156ecb0">set_CU_bots</a>(<a class="code" href="structcatalogo__user.html">catalogo_user</a>,bots);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="catalogo__users_8h.html#af4ea389c5381ecfc5e92ccae74b2fc26">set_CU_org</a>(<a class="code" href="structcatalogo__user.html">catalogo_user</a>,org);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="catalogo__users_8h.html#ad5fed99cfbb9d7cee9686530ce4b3720">set_CU_user</a>(<a class="code" href="structcatalogo__user.html">catalogo_user</a>,nuser);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    fclose(leitura);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="structcatalogo__user.html">catalogo_user</a>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="arepos_8h_html_afc91f89fbdeb16250692a1c3dd74a756"><div class="ttname"><a href="repos_8h.html#afc91f89fbdeb16250692a1c3dd74a756">free_Repos</a></div><div class="ttdeci">void free_Repos(LRepos r)</div><div class="ttdef"><b>Definition:</b> <a href="repos_8c_source.html#l00185">repos.c:185</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e">BOT</a></div><div class="ttdeci">@ BOT</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00027">users.h:27</a></div></div>
+<div class="ttc" id="astructuser_html"><div class="ttname"><a href="structuser.html">user</a></div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00013">users.c:13</a></div></div>
+<div class="ttc" id="acontroller_8h_html_a9dbc81af1474dad93a18cbf1df355a99"><div class="ttname"><a href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a></div><div class="ttdeci">#define buffer_size</div><div class="ttdef"><b>Definition:</b> <a href="controller_8h_source.html#l00027">controller.h:27</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">INVALID</a></div><div class="ttdeci">@ INVALID</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00030">users.h:30</a></div></div>
+<div class="ttc" id="acatalogo__users_8h_html_a7cbb1a7f6454893e7a5d39889481c51f"><div class="ttname"><a href="catalogo__users_8h.html#a7cbb1a7f6454893e7a5d39889481c51f">verifica_CU_User</a></div><div class="ttdeci">int verifica_CU_User(CUSER cuser, int key)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__users_8c_source.html#l00048">catalogo_users.c:48</a></div></div>
+<div class="ttc" id="astructcatalogo__user_html"><div class="ttname"><a href="structcatalogo__user.html">catalogo_user</a></div><div class="ttdef"><b>Definition:</b> <a href="catalogo__users_8c_source.html#l00013">catalogo_users.c:13</a></div></div>
+<div class="ttc" id="acatalogo__commits_8h_html_aa19f1839cc32744581d3e71fe57ab013"><div class="ttname"><a href="catalogo__commits_8h.html#aa19f1839cc32744581d3e71fe57ab013">set_CC_total_commits</a></div><div class="ttdeci">void set_CC_total_commits(CCOMMITS catalogo_commits, int total_commits)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__commits_8c_source.html#l00102">catalogo_commits.c:102</a></div></div>
+<div class="ttc" id="acommits_8h_html_ab24c01d9744df4f206e72cd911962f39"><div class="ttname"><a href="commits_8h.html#ab24c01d9744df4f206e72cd911962f39">get_Author_ID</a></div><div class="ttdeci">int get_Author_ID(LCommits c)</div><div class="ttdef"><b>Definition:</b> <a href="commits_8c_source.html#l00072">commits.c:72</a></div></div>
+<div class="ttc" id="acommits_8h_html_ac1c9619c92faf6cd3f8bc1e763522b4a"><div class="ttname"><a href="commits_8h.html#ac1c9619c92faf6cd3f8bc1e763522b4a">GAddCommit</a></div><div class="ttdeci">void GAddCommit(LCommits commit, GArray *array)</div><div class="ttdef"><b>Definition:</b> <a href="commits_8c_source.html#l00024">commits.c:24</a></div></div>
+<div class="ttc" id="acatalogo__users_8h_html_af4ea389c5381ecfc5e92ccae74b2fc26"><div class="ttname"><a href="catalogo__users_8h.html#af4ea389c5381ecfc5e92ccae74b2fc26">set_CU_org</a></div><div class="ttdeci">void set_CU_org(CUSER cuser, int org)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__users_8c_source.html#l00080">catalogo_users.c:80</a></div></div>
+<div class="ttc" id="acatalogo__commits_8h_html_a28bccaa300a3939ea58d6fdd0b9de326"><div class="ttname"><a href="catalogo__commits_8h.html#a28bccaa300a3939ea58d6fdd0b9de326">set_CC_Nusers</a></div><div class="ttdeci">void set_CC_Nusers(CCOMMITS catalogo_commits, int nusers)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__commits_8c_source.html#l00094">catalogo_commits.c:94</a></div></div>
+<div class="ttc" id="arepos_8h_html_ad36adca910f080c214e50fa47613f694"><div class="ttname"><a href="repos_8h.html#ad36adca910f080c214e50fa47613f694">build_Repos</a></div><div class="ttdeci">LRepos build_Repos(char *line)</div><div class="ttdef"><b>Definition:</b> <a href="repos_8c_source.html#l00215">repos.c:215</a></div></div>
+<div class="ttc" id="ausers_8h_html_a4291a4ef910f091d4582cc44069e8bcd"><div class="ttname"><a href="users_8h.html#a4291a4ef910f091d4582cc44069e8bcd">build_User</a></div><div class="ttdeci">LUSER build_User(char *line)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00233">users.c:233</a></div></div>
+<div class="ttc" id="acatalogo__users_8h_html_a2895d6af3ff41222e24afadcadcd8103"><div class="ttname"><a href="catalogo__users_8h.html#a2895d6af3ff41222e24afadcadcd8103">get_CU_GUser</a></div><div class="ttdeci">LUSER get_CU_GUser(CUSER cuser, int key)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__users_8c_source.html#l00043">catalogo_users.c:43</a></div></div>
+<div class="ttc" id="acommits_8h_html_a1e20f6d9f4410fe06731b7121c0e26e5"><div class="ttname"><a href="commits_8h.html#a1e20f6d9f4410fe06731b7121c0e26e5">get_Committer_ID</a></div><div class="ttdeci">int get_Committer_ID(LCommits c)</div><div class="ttdef"><b>Definition:</b> <a href="commits_8c_source.html#l00080">commits.c:80</a></div></div>
+<div class="ttc" id="afile__work__aux_8h_html_aa56d365acb3cd32f94bab1cfe7267488"><div class="ttname"><a href="file__work__aux_8h.html#aa56d365acb3cd32f94bab1cfe7267488">ler_file_aux</a></div><div class="ttdeci">GHashTable * ler_file_aux(char *filename)</div><div class="ttdoc">Função auxiliar na leitura de ficheiros. Esta função lê o ficheiro auxiliar gerado pelas funções de l...</div><div class="ttdef"><b>Definition:</b> <a href="file__work__aux_8c_source.html#l00013">file_work_aux.c:13</a></div></div>
+<div class="ttc" id="acatalogo__commits_8h_html_add8084fd090019fefb4b59ae63d83ea9"><div class="ttname"><a href="catalogo__commits_8h.html#add8084fd090019fefb4b59ae63d83ea9">set_CC_Nbots</a></div><div class="ttdeci">void set_CC_Nbots(CCOMMITS catalogo_commits, int nbots)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__commits_8c_source.html#l00098">catalogo_commits.c:98</a></div></div>
+<div class="ttc" id="afile__work__validacoes_8h_html_a38f7a0dcca681e41275be456cfbf7b6d"><div class="ttname"><a href="file__work__validacoes_8h.html#a38f7a0dcca681e41275be456cfbf7b6d">imprime_file_repos_aux</a></div><div class="ttdeci">void imprime_file_repos_aux(char *filename)</div><div class="ttdoc">Função que valida um ficheiro Função que gera o ficheiro auxiliar com os ids dos repos.</div><div class="ttdef"><b>Definition:</b> <a href="file__work__validacoes_8c_source.html#l00135">file_work_validacoes.c:135</a></div></div>
+<div class="ttc" id="acommits_8h_html_a5c08a13177f56e0f2512eb8a7b0e953d"><div class="ttname"><a href="commits_8h.html#a5c08a13177f56e0f2512eb8a7b0e953d">free_Commit</a></div><div class="ttdeci">void free_Commit(LCommits c)</div><div class="ttdef"><b>Definition:</b> <a href="commits_8c_source.html#l00106">commits.c:106</a></div></div>
+<div class="ttc" id="acatalogo__commits_8h_html_a22c9cffb1fa7034dfd561658510002ba"><div class="ttname"><a href="catalogo__commits_8h.html#a22c9cffb1fa7034dfd561658510002ba">set_CC_GHashTable</a></div><div class="ttdeci">int set_CC_GHashTable(CCOMMITS catalogo_commits, LCommits commit, int flag)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__commits_8c_source.html#l00074">catalogo_commits.c:74</a></div></div>
+<div class="ttc" id="astructcatalogo__repos_html"><div class="ttname"><a href="structcatalogo__repos.html">catalogo_repos</a></div><div class="ttdef"><b>Definition:</b> <a href="catalogo__repos_8c_source.html#l00013">catalogo_repos.c:13</a></div></div>
+<div class="ttc" id="astructcatalogo__commits_html"><div class="ttname"><a href="structcatalogo__commits.html">catalogo_commits</a></div><div class="ttdef"><b>Definition:</b> <a href="catalogo__commits_8c_source.html#l00015">catalogo_commits.c:15</a></div></div>
+<div class="ttc" id="acatalogo__commits_8h_html_a84e4e22a8a7e029954d53752ebb697ef"><div class="ttname"><a href="catalogo__commits_8h.html#a84e4e22a8a7e029954d53752ebb697ef">GAdduserid</a></div><div class="ttdeci">void GAdduserid(int x, CCOMMITS ccommits)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__commits_8c_source.html#l00109">catalogo_commits.c:109</a></div></div>
+<div class="ttc" id="acatalogo__repos_8h_html_a5e18a083847e33b213c5217cb4cb6d54"><div class="ttname"><a href="catalogo__repos_8h.html#a5e18a083847e33b213c5217cb4cb6d54">set_CR_GRepos</a></div><div class="ttdeci">void set_CR_GRepos(CREPOS crepos, LRepos repos)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__repos_8c_source.html#l00023">catalogo_repos.c:23</a></div></div>
+<div class="ttc" id="acatalogo__users_8h_html_ab6545b03a1d25bf981f14578e156ecb0"><div class="ttname"><a href="catalogo__users_8h.html#ab6545b03a1d25bf981f14578e156ecb0">set_CU_bots</a></div><div class="ttdeci">void set_CU_bots(CUSER cuser, int bots)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__users_8c_source.html#l00076">catalogo_users.c:76</a></div></div>
+<div class="ttc" id="astructcommit_html"><div class="ttname"><a href="structcommit.html">commit</a></div><div class="ttdef"><b>Definition:</b> <a href="commits_8c_source.html#l00014">commits.c:14</a></div></div>
+<div class="ttc" id="acatalogo__commits_8h_html_a9057f7e8efcfeb03b6e5dbdb3351f5dc"><div class="ttname"><a href="catalogo__commits_8h.html#a9057f7e8efcfeb03b6e5dbdb3351f5dc">set_CC_GCommits</a></div><div class="ttdeci">void set_CC_GCommits(CCOMMITS catalogo_commits, GArray *commit_list)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__commits_8c_source.html#l00070">catalogo_commits.c:70</a></div></div>
+<div class="ttc" id="acatalogo__commits_8h_html_aa3cd3c49cf47e9eff75ee9a84f02b1f2"><div class="ttname"><a href="catalogo__commits_8h.html#aa3cd3c49cf47e9eff75ee9a84f02b1f2">set_CC_Nrepos</a></div><div class="ttdeci">void set_CC_Nrepos(CCOMMITS catalogo_commits, int nrepos)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__commits_8c_source.html#l00090">catalogo_commits.c:90</a></div></div>
+<div class="ttc" id="astructrepos_html"><div class="ttname"><a href="structrepos.html">repos</a></div><div class="ttdef"><b>Definition:</b> <a href="repos_8c_source.html#l00013">repos.c:13</a></div></div>
+<div class="ttc" id="ausers_8h_html_a660d1948264b66170b592b90c24b9eab"><div class="ttname"><a href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a></div><div class="ttdeci">enum type TIPO</div></div>
+<div class="ttc" id="acommits_8h_html_afda7a5de4d1863889042b0e00b76df62"><div class="ttname"><a href="commits_8h.html#afda7a5de4d1863889042b0e00b76df62">verifica_repos_commit</a></div><div class="ttdeci">int verifica_repos_commit(LCommits commit, GHashTable *hashT)</div><div class="ttdef"><b>Definition:</b> <a href="commits_8c_source.html#l00055">commits.c:55</a></div></div>
+<div class="ttc" id="acatalogo__users_8h_html_ad5fed99cfbb9d7cee9686530ce4b3720"><div class="ttname"><a href="catalogo__users_8h.html#ad5fed99cfbb9d7cee9686530ce4b3720">set_CU_user</a></div><div class="ttdeci">void set_CU_user(CUSER cuser, int nuser)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__users_8c_source.html#l00084">catalogo_users.c:84</a></div></div>
+<div class="ttc" id="acatalogo__commits_8h_html_a4b2b2129cbe39ee71800ebca39a1c480"><div class="ttname"><a href="catalogo__commits_8h.html#a4b2b2129cbe39ee71800ebca39a1c480">add_CC_GOcorr</a></div><div class="ttdeci">void add_CC_GOcorr(int key, CCOMMITS ccommits)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__commits_8c_source.html#l00154">catalogo_commits.c:154</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b">USER</a></div><div class="ttdeci">@ USER</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00029">users.h:29</a></div></div>
+<div class="ttc" id="arepos_8h_html_a99d49e46d92301137822381b65fde304"><div class="ttname"><a href="repos_8h.html#a99d49e46d92301137822381b65fde304">get_Owner_ID</a></div><div class="ttdeci">int get_Owner_ID(LRepos r)</div><div class="ttdef"><b>Definition:</b> <a href="repos_8c_source.html#l00074">repos.c:74</a></div></div>
+<div class="ttc" id="acommits_8h_html_a7d0c417ccf423cc30053b79c608d735b"><div class="ttname"><a href="commits_8h.html#a7d0c417ccf423cc30053b79c608d735b">build_Commit</a></div><div class="ttdeci">LCommits build_Commit(char *line)</div><div class="ttdef"><b>Definition:</b> <a href="commits_8c_source.html#l00127">commits.c:127</a></div></div>
+<div class="ttc" id="ausers_8h_html_a38f06fcf7b9edfba3122e3c24ab450d9"><div class="ttname"><a href="users_8h.html#a38f06fcf7b9edfba3122e3c24ab450d9">get_Type</a></div><div class="ttdeci">TIPO get_Type(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00056">users.c:56</a></div></div>
+<div class="ttc" id="acatalogo__users_8h_html_a4d9febdc4727a3d589166a0583d23831"><div class="ttname"><a href="catalogo__users_8h.html#a4d9febdc4727a3d589166a0583d23831">add_CU_GUser</a></div><div class="ttdeci">void add_CU_GUser(CUSER cuser, LUSER user)</div><div class="ttdef"><b>Definition:</b> <a href="catalogo__users_8c_source.html#l00033">catalogo_users.c:33</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_5c067e43b62dc1a915e487a737196819.html">model</a></li><li class="navelem"><a class="el" href="dir_c423f9d667e9245894fcb4c668f02056.html">File_Work</a></li><li class="navelem"><a class="el" href="catalogs__file__work_8h.html">catalogs_file_work.h</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<map id="src/controller/interpretador.c" name="src/controller/interpretador.c">
+<area shape="rect" id="node1" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="870,5,1077,32"/>
+<area shape="rect" id="node2" href="$interpretador_8h.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="975,80,1134,121"/>
+<area shape="rect" id="node28" href="$queries__parametrizaveis_8h.html" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="784,244,1035,285"/>
+<area shape="rect" id="node3" title=" " alt="" coords="934,765,1005,792"/>
+<area shape="rect" id="node4" title=" " alt="" coords="175,765,241,792"/>
+<area shape="rect" id="node5" href="$exercicios_8h.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="1012,169,1111,196"/>
+<area shape="rect" id="node6" href="$file__work__validacoes_8h.html" title="Ficheiro que contém as funções que para validar os ficheiros obtidos no exercício 1." alt="" coords="985,423,1159,464"/>
+<area shape="rect" id="node17" href="$queries__estatisticas_8h.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="521,244,700,285"/>
+<area shape="rect" id="node18" href="$sgr_8h.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="1153,333,1303,375"/>
+<area shape="rect" id="node7" href="$commits_8h.html" title="Ficheiro que contém as funções que para trabalhar com os commits." alt="" coords="1087,601,1246,643"/>
+<area shape="rect" id="node13" href="$users_8h.html" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="883,609,1063,635"/>
+<area shape="rect" id="node14" href="$repos_8h.html" title="Ficheiro que contém as funções que para trabalhar com os repos." alt="" coords="1217,519,1407,546"/>
+<area shape="rect" id="node8" href="$Funcoes__Aux_8h.html" title="Ficheiro que contém as funções auxiliares." alt="" coords="883,691,1013,717"/>
+<area shape="rect" id="node11" href="$Data_8h.html" title="Ficheiro que contém as funções que para trabalhar com o tipo de LTempo." alt="" coords="1128,691,1205,717"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1507,691,1618,717"/>
+<area shape="rect" id="node9" title=" " alt="" coords="529,765,599,792"/>
+<area shape="rect" id="node10" title=" " alt="" coords="839,765,910,792"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1271,609,1353,635"/>
+<area shape="rect" id="node16" href="$ghash__func__gerais_8h.html" title="Ficheiro que contém as funções para trabalhar com *GHashTable." alt="" coords="1479,609,1646,635"/>
+<area shape="rect" id="node25" href="$file__work__aux_8h.html" title="Ficheiro que contém as funções auxiliares para trabalhar os ficheiros." alt="" coords="597,601,757,643"/>
+<area shape="rect" id="node26" href="$queries__output_8h.html" title="Ficheiro que contém as funções para apresentar os resultados das queries." alt="" coords="393,512,522,553"/>
+<area shape="rect" id="node19" href="$catalogo__commits_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de commits." alt="" coords="1183,423,1342,464"/>
+<area shape="rect" id="node20" href="$catalogo__repos_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de repos." alt="" coords="1417,423,1615,464"/>
+<area shape="rect" id="node21" href="$catalogo__users_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de users." alt="" coords="1451,512,1640,553"/>
+<area shape="rect" id="node22" href="$view_8h.html" title="Ficheiro que contém as funções para apresentar as diferentes partes da interface." alt="" coords="635,691,757,717"/>
+<area shape="rect" id="node23" title=" " alt="" coords="641,765,705,792"/>
+<area shape="rect" id="node24" href="$colors_8h.html" title="Ficheiro que contém as cores a serem usadas na interface da aplicação." alt="" coords="730,765,803,792"/>
+<area shape="rect" id="node27" href="$table_8h.html" title="Ficheiro que contém as funções para trabalhar com FTABLE." alt="" coords="246,609,370,635"/>
+</map>

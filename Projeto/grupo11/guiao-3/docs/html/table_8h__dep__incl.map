@@ -1,0 +1,16 @@
+<map id="include/model/table.h" name="include/model/table.h">
+<area shape="rect" id="node1" title="Ficheiro que contém as funções para trabalhar com FTABLE." alt="" coords="723,5,886,32"/>
+<area shape="rect" id="node2" href="$queries__output_8h.html" title="Ficheiro que contém as funções para apresentar os resultados das queries." alt="" coords="431,80,587,121"/>
+<area shape="rect" id="node4" href="$controller_8h.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="461,437,596,479"/>
+<area shape="rect" id="node14" href="$table_8c.html" title="Ficheiro que contém as funções para trabalhar com FTABLE." alt="" coords="843,87,977,114"/>
+<area shape="rect" id="node3" href="$queries__estatisticas_8h.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="425,169,593,211"/>
+<area shape="rect" id="node13" href="$queries__output_8c.html" title=" " alt="" coords="212,177,400,203"/>
+<area shape="rect" id="node7" href="$exercicios_8h.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="93,259,228,300"/>
+<area shape="rect" id="node10" href="$exercicios_8c.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="251,355,438,382"/>
+<area shape="rect" id="node11" href="$queries__estatisticas_8c.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="304,259,495,300"/>
+<area shape="rect" id="node12" href="$maintests_8c.html" title=" " alt="" coords="519,266,717,293"/>
+<area shape="rect" id="node5" href="$controller_8c.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="357,527,540,553"/>
+<area shape="rect" id="node6" href="$main_8c.html" title="Ficheiro que contém a função principal do sistema de gestão de repositórios." alt="" coords="564,527,653,553"/>
+<area shape="rect" id="node8" href="$interpretador_8h.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="41,348,176,389"/>
+<area shape="rect" id="node9" href="$interpretador_8c.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="5,445,212,471"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="include/view/colors.h" name="include/view/colors.h">
+<area shape="rect" id="node1" title="Ficheiro que contém as cores a serem usadas na interface da aplicação." alt="" coords="411,5,570,32"/>
+<area shape="rect" id="node2" href="$view_8h.html" title="Ficheiro que contém as funções para apresentar as diferentes partes da interface." alt="" coords="325,80,475,107"/>
+<area shape="rect" id="node20" href="$tests_8c.html" title=" " alt="" coords="499,80,663,107"/>
+<area shape="rect" id="node3" href="$sgr_8h.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="408,162,581,189"/>
+<area shape="rect" id="node5" href="$controller_8h.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="390,512,525,553"/>
+<area shape="rect" id="node17" href="$queries__output_8h.html" title="Ficheiro que contém as funções para apresentar os resultados das queries." alt="" coords="227,155,383,196"/>
+<area shape="rect" id="node19" href="$view_8c.html" title=" " alt="" coords="606,162,727,189"/>
+<area shape="rect" id="node4" href="$queries__estatisticas_8h.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="256,244,424,285"/>
+<area shape="rect" id="node8" href="$exercicios_8h.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="378,333,513,375"/>
+<area shape="rect" id="node13" href="$maintests_8c.html" title=" " alt="" coords="537,341,735,367"/>
+<area shape="rect" id="node14" href="$queries__parametrizaveis_8h.html" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="755,244,954,285"/>
+<area shape="rect" id="node16" href="$sgr_8c.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="499,251,643,278"/>
+<area shape="rect" id="node11" href="$exercicios_8c.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="233,430,420,457"/>
+<area shape="rect" id="node12" href="$queries__estatisticas_8c.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="111,333,302,375"/>
+<area shape="rect" id="node6" href="$controller_8c.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="286,601,469,628"/>
+<area shape="rect" id="node7" href="$main_8c.html" title="Ficheiro que contém a função principal do sistema de gestão de repositórios." alt="" coords="493,601,582,628"/>
+<area shape="rect" id="node9" href="$interpretador_8h.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="495,423,630,464"/>
+<area shape="rect" id="node10" href="$interpretador_8c.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="747,519,954,546"/>
+<area shape="rect" id="node15" href="$queries__parametrizaveis_8c.html" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="759,333,950,375"/>
+<area shape="rect" id="node18" href="$queries__output_8c.html" title=" " alt="" coords="43,251,231,278"/>
+</map>

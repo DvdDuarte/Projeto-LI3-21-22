@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de include/model/sgr/sgr.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 3
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('sgr_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">sgr.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="sgr_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef GRUPO11_SGR_H</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define GRUPO11_SGR_H</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;glib-2.0/glib.h&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;../Catalogo_Commits/catalogo_commits.h&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;../Catalogo_Repos/catalogo_repos.h&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;../Catalogo_User/catalogo_users.h&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;../../view/view.h&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="sgr_8h.html#aeba4b166417d645ade4f35d748dcc85a">   23</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structsgr.html">sgr</a> <a class="code" href="structsgr.html">NSGR</a>, *<a class="code" href="sgr_8h.html#aeba4b166417d645ade4f35d748dcc85a">SGR</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<a class="code" href="structsgr.html">SGR</a> <a class="code" href="sgr_8h.html#acad30e823a89c851a6479903272f3f01">init_sgr</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<a class="code" href="structsgr.html">SGR</a> <a class="code" href="sgr_8h.html#aef5fc54956d60e5610b71262f07f2a74">fill_sgr</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>, <span class="keywordtype">char</span> *userpath, <span class="keywordtype">char</span> *commitspath, <span class="keywordtype">char</span> *repospath);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">/*DEBUG</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">void print_SGR_CR_GR_PTR(SGR sgr);</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sgr_8h.html#abe223ca6c51addf8526b21a772dae59f">sgr_get_CU_bots</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sgr_8h.html#aa97850d4aca3ef78296d3960e9b85ebb">sgr_get_CU_org</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sgr_8h.html#ae5dc00473489aae2bbbbcccf7b618cc0">sgr_get_CU_user</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sgr_8h.html#a4a696700be9710800e38bb785f99089a">sgr_get_CC_user</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sgr_8h.html#af3a339247025885f0c4c58906694fb33">sgr_get_CC_repos</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sgr_8h.html#ad09b0d254c5aeb3ec777abfc55be73d5">sgr_get_CC_bots</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keywordtype">int</span> <a class="code" href="sgr_8h.html#aaf70540c80731687f5e85f22614d768f">sgr_get_CC_total_commits</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;GArray * <a class="code" href="sgr_8h.html#ac6da5eabbe84e78d4403ec60c1596d1d">sgr_get_CC_usersID</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;GHashTable * <a class="code" href="sgr_8h.html#a417dc19fdb6d5965b851cba0ec3c5078">sgr_get_cc_GOcorr</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<a class="code" href="structuser.html">LUSER</a> <a class="code" href="sgr_8h.html#a385148faed03397753096cf0149e7a7c">sgr_get_CU_GUser</a>(<a class="code" href="structsgr.html">SGR</a> <a class="code" href="structsgr.html">sgr</a>, <span class="keywordtype">int</span> key);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">#endif //GRUPO11_SGR_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="asgr_8h_html_ad09b0d254c5aeb3ec777abfc55be73d5"><div class="ttname"><a href="sgr_8h.html#ad09b0d254c5aeb3ec777abfc55be73d5">sgr_get_CC_bots</a></div><div class="ttdeci">int sgr_get_CC_bots(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00066">sgr.c:66</a></div></div>
+<div class="ttc" id="asgr_8h_html_a4a696700be9710800e38bb785f99089a"><div class="ttname"><a href="sgr_8h.html#a4a696700be9710800e38bb785f99089a">sgr_get_CC_user</a></div><div class="ttdeci">int sgr_get_CC_user(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00058">sgr.c:58</a></div></div>
+<div class="ttc" id="astructuser_html"><div class="ttname"><a href="structuser.html">user</a></div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00013">users.c:13</a></div></div>
+<div class="ttc" id="asgr_8h_html_acad30e823a89c851a6479903272f3f01"><div class="ttname"><a href="sgr_8h.html#acad30e823a89c851a6479903272f3f01">init_sgr</a></div><div class="ttdeci">SGR init_sgr()</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00020">sgr.c:20</a></div></div>
+<div class="ttc" id="asgr_8h_html_a385148faed03397753096cf0149e7a7c"><div class="ttname"><a href="sgr_8h.html#a385148faed03397753096cf0149e7a7c">sgr_get_CU_GUser</a></div><div class="ttdeci">LUSER sgr_get_CU_GUser(SGR sgr, int key)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00083">sgr.c:83</a></div></div>
+<div class="ttc" id="asgr_8h_html_aeba4b166417d645ade4f35d748dcc85a"><div class="ttname"><a href="sgr_8h.html#aeba4b166417d645ade4f35d748dcc85a">SGR</a></div><div class="ttdeci">struct sgr * SGR</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8h_source.html#l00023">sgr.h:23</a></div></div>
+<div class="ttc" id="asgr_8h_html_aa97850d4aca3ef78296d3960e9b85ebb"><div class="ttname"><a href="sgr_8h.html#aa97850d4aca3ef78296d3960e9b85ebb">sgr_get_CU_org</a></div><div class="ttdeci">int sgr_get_CU_org(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00050">sgr.c:50</a></div></div>
+<div class="ttc" id="astructsgr_html"><div class="ttname"><a href="structsgr.html">sgr</a></div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00014">sgr.c:14</a></div></div>
+<div class="ttc" id="asgr_8h_html_aaf70540c80731687f5e85f22614d768f"><div class="ttname"><a href="sgr_8h.html#aaf70540c80731687f5e85f22614d768f">sgr_get_CC_total_commits</a></div><div class="ttdeci">int sgr_get_CC_total_commits(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00070">sgr.c:70</a></div></div>
+<div class="ttc" id="asgr_8h_html_ae5dc00473489aae2bbbbcccf7b618cc0"><div class="ttname"><a href="sgr_8h.html#ae5dc00473489aae2bbbbcccf7b618cc0">sgr_get_CU_user</a></div><div class="ttdeci">int sgr_get_CU_user(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00054">sgr.c:54</a></div></div>
+<div class="ttc" id="asgr_8h_html_abe223ca6c51addf8526b21a772dae59f"><div class="ttname"><a href="sgr_8h.html#abe223ca6c51addf8526b21a772dae59f">sgr_get_CU_bots</a></div><div class="ttdeci">int sgr_get_CU_bots(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00046">sgr.c:46</a></div></div>
+<div class="ttc" id="asgr_8h_html_a417dc19fdb6d5965b851cba0ec3c5078"><div class="ttname"><a href="sgr_8h.html#a417dc19fdb6d5965b851cba0ec3c5078">sgr_get_cc_GOcorr</a></div><div class="ttdeci">GHashTable * sgr_get_cc_GOcorr(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00078">sgr.c:78</a></div></div>
+<div class="ttc" id="asgr_8h_html_aef5fc54956d60e5610b71262f07f2a74"><div class="ttname"><a href="sgr_8h.html#aef5fc54956d60e5610b71262f07f2a74">fill_sgr</a></div><div class="ttdeci">SGR fill_sgr(SGR sgr, char *userpath, char *commitspath, char *repospath)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00033">sgr.c:33</a></div></div>
+<div class="ttc" id="asgr_8h_html_ac6da5eabbe84e78d4403ec60c1596d1d"><div class="ttname"><a href="sgr_8h.html#ac6da5eabbe84e78d4403ec60c1596d1d">sgr_get_CC_usersID</a></div><div class="ttdeci">GArray * sgr_get_CC_usersID(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00074">sgr.c:74</a></div></div>
+<div class="ttc" id="asgr_8h_html_af3a339247025885f0c4c58906694fb33"><div class="ttname"><a href="sgr_8h.html#af3a339247025885f0c4c58906694fb33">sgr_get_CC_repos</a></div><div class="ttdeci">int sgr_get_CC_repos(SGR sgr)</div><div class="ttdef"><b>Definition:</b> <a href="sgr_8c_source.html#l00062">sgr.c:62</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_5c067e43b62dc1a915e487a737196819.html">model</a></li><li class="navelem"><a class="el" href="dir_a78e5d23c0fbddf36e09ec476ab32007.html">sgr</a></li><li class="navelem"><a class="el" href="sgr_8h.html">sgr.h</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>

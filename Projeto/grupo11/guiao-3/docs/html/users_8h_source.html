@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de include/model/Catalogo_User/users.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 3
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('users_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">users.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="users_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef _USERS_H_</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define _USERS_H_</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;../Funcoes_Aux.h&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;../Data.h&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;glib-2.0/glib.h&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="users_8h.html#a158dfc1e355bceb78a66acba30c5a9a0">   18</a></span>&#160;<span class="preprocessor">#define Bot 0</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="users_8h.html#a9aff8850efa686a0be5c9762431deac8">   19</a></span>&#160;<span class="preprocessor">#define Organization 1</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="users_8h.html#a1aa2b63537d2151fdc9b0d60d508add1">   20</a></span>&#160;<span class="preprocessor">#define User 2</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="users_8h.html#ac9b0e4e0c5350f60e2e29b27160d5bcd">   21</a></span>&#160;<span class="preprocessor">#define Invalid -1</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">   26</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a>{</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e">   27</a></span>&#160;    <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e">BOT</a> = 0,</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c">   28</a></span>&#160;    <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c">ORGANIZATION</a> = 1,</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b">   29</a></span>&#160;    <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b">USER</a> = 2,</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">   30</a></span>&#160;    <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">INVALID</a> = -1</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}<a class="code" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="users_8h.html#aaa2797b20507a52128757836b89f3620">   36</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structuser.html">user</a> <a class="code" href="structuser.html">NUSER</a>, *<a class="code" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">//GHashTable Functions</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#ab276539cdb6ff784338eac999a511122">GAddUsers</a> (<a class="code" href="structuser.html">LUSER</a> <a class="code" href="structuser.html">user</a>, GHashTable *hash);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<a class="code" href="structuser.html">LUSER</a> <a class="code" href="users_8h.html#a5e95453a5096242b56b8de1deedd1714">GGetUser</a>(<span class="keywordtype">int</span> key, GHashTable *hash);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#ad95faf49e3e2bb178e0ce84976fafaf5">GUsers_free</a>(GHashTable *hash);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">//Gets e Sets</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keywordtype">int</span> <a class="code" href="users_8h.html#ad4638d9dc46c42b617254497f185b6fd">get_ID_User</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#a6a21dba381f20de0394c49cc6474447f">set_ID_User</a>(<a class="code" href="structuser.html">LUSER</a> u, <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keywordtype">char</span>* <a class="code" href="users_8h.html#a5a8d35ad472eaed3d7eb4f7b3fdf813c">get_Login</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#a82f1de12f931eb2ad9ee524fc9bb9ea1">set_Login</a>(<a class="code" href="structuser.html">LUSER</a> u, <span class="keywordtype">char</span>* <a class="code" href="structuser.html#a5b4f587198610f9f019412f921e2a143">login</a>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<a class="code" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a> <a class="code" href="users_8h.html#a38f06fcf7b9edfba3122e3c24ab450d9">get_Type</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#aa043b5684ea7cee44dd19f693966993a">set_Type</a>(<a class="code" href="structuser.html">LUSER</a> u, <a class="code" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a> <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<a class="code" href="structtime.html">LTempo</a> <a class="code" href="users_8h.html#a61e56900cd60c2ddc5f62f25b71129fc">get_Created_At_User</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#a26e28b6ad64817a3d9fa6ce8c7cbfae4">set_Created_At_User</a>(<a class="code" href="structuser.html">LUSER</a> u, <a class="code" href="structtime.html">LTempo</a> <a class="code" href="structuser.html#a283c03a9e5a014e096a980da2d57a753">created_at</a>);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="keywordtype">int</span> <a class="code" href="users_8h.html#a8ce5378a5af951d21c0f493b94acaa9a">get_Followers</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#ab0513636f2c4c8b0856150297ec0831a">set_Followers</a>(<a class="code" href="structuser.html">LUSER</a> u, <span class="keywordtype">int</span> <a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a>);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="keywordtype">int</span>* <a class="code" href="users_8h.html#ab2d462859453b6f93a097447850b0bcf">get_Followers_List</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#a2a0c35cbf493d8c94145d8a6e483afe3">set_Followers_List</a>(<a class="code" href="structuser.html">LUSER</a> u, <span class="keyword">const</span> <span class="keywordtype">int</span>* <a class="code" href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">followers_list</a>, <span class="keywordtype">int</span> <a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a>);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="keywordtype">int</span> <a class="code" href="users_8h.html#a9edff29498b93402aa92f675a7de271f">get_Following</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#aedeb3a8d957b3683043b6410bb391ff8">set_Following</a>(<a class="code" href="structuser.html">LUSER</a> u, <span class="keywordtype">int</span> <a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a>);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="keywordtype">int</span>* <a class="code" href="users_8h.html#a76586b98a069700ad74389123719d998">get_Following_List</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#a8e7e943d52812c6d5cd4584335c375bd">set_Following_List</a>(<a class="code" href="structuser.html">LUSER</a> u, <span class="keyword">const</span> <span class="keywordtype">int</span>* <a class="code" href="structuser.html#a47338fd60119a3e06442f32db799d419">following_list</a>, <span class="keywordtype">int</span> <a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a>);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="keywordtype">int</span> <a class="code" href="users_8h.html#a018f2f8f41932e00c1f26a68f7b22b9e">get_Public_Gits</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#a2a7ae2f8da5635389907dc366e01374a">set_Public_Gits</a>(<a class="code" href="structuser.html">LUSER</a> u, <span class="keywordtype">int</span> <a class="code" href="structuser.html#a0cbdc3322b4d5969fa9f744fdf6fc767">public_gits</a>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="keywordtype">int</span> <a class="code" href="users_8h.html#abe49afa5ab9e322abb258a8da4cef23b">get_Public_Repos</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#a9a81c3051a6136f7581aab64a6e4c67d">set_Public_Repos</a>(<a class="code" href="structuser.html">LUSER</a> u, <span class="keywordtype">int</span> <a class="code" href="structuser.html#a38f2e34d76e85ceac3bf16fbbd3d26ca">public_repos</a>);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="keywordtype">void</span> <a class="code" href="users_8h.html#a26367dc79d4e64e9cef013339e54ab72">free_User</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="keywordtype">int</span> <a class="code" href="users_8h.html#a48b2ea020e911861c98f811c6a9ecee3">valid_User</a>(<a class="code" href="structuser.html">LUSER</a> u);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<a class="code" href="structuser.html">LUSER</a> <a class="code" href="users_8h.html#a4291a4ef910f091d4582cc44069e8bcd">build_User</a>(<span class="keywordtype">char</span>* line);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="keywordtype">char</span>* <a class="code" href="users_8h.html#adb45e9d1d9027b19d819121cbfbc8cf2">toString_Type</a>(<a class="code" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a> <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a>);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="preprocessor">#endif //_USERS_H_</span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="astructuser_html_a0cbdc3322b4d5969fa9f744fdf6fc767"><div class="ttname"><a href="structuser.html#a0cbdc3322b4d5969fa9f744fdf6fc767">user::public_gits</a></div><div class="ttdeci">int public_gits</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00022">users.c:22</a></div></div>
+<div class="ttc" id="ausers_8h_html_a8ce5378a5af951d21c0f493b94acaa9a"><div class="ttname"><a href="users_8h.html#a8ce5378a5af951d21c0f493b94acaa9a">get_Followers</a></div><div class="ttdeci">int get_Followers(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00073">users.c:73</a></div></div>
+<div class="ttc" id="ausers_8h_html_a61e56900cd60c2ddc5f62f25b71129fc"><div class="ttname"><a href="users_8h.html#a61e56900cd60c2ddc5f62f25b71129fc">get_Created_At_User</a></div><div class="ttdeci">LTempo get_Created_At_User(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00064">users.c:64</a></div></div>
+<div class="ttc" id="ausers_8h_html_ad95faf49e3e2bb178e0ce84976fafaf5"><div class="ttname"><a href="users_8h.html#ad95faf49e3e2bb178e0ce84976fafaf5">GUsers_free</a></div><div class="ttdeci">void GUsers_free(GHashTable *hash)</div></div>
+<div class="ttc" id="ausers_8h_html_aedeb3a8d957b3683043b6410bb391ff8"><div class="ttname"><a href="users_8h.html#aedeb3a8d957b3683043b6410bb391ff8">set_Following</a></div><div class="ttdeci">void set_Following(LUSER u, int following)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00107">users.c:107</a></div></div>
+<div class="ttc" id="ausers_8h_html_a6a21dba381f20de0394c49cc6474447f"><div class="ttname"><a href="users_8h.html#a6a21dba381f20de0394c49cc6474447f">set_ID_User</a></div><div class="ttdeci">void set_ID_User(LUSER u, int id)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00043">users.c:43</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e">BOT</a></div><div class="ttdeci">@ BOT</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00027">users.h:27</a></div></div>
+<div class="ttc" id="ausers_8h_html_ab2d462859453b6f93a097447850b0bcf"><div class="ttname"><a href="users_8h.html#ab2d462859453b6f93a097447850b0bcf">get_Followers_List</a></div><div class="ttdeci">int * get_Followers_List(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00081">users.c:81</a></div></div>
+<div class="ttc" id="astructuser_html_a0d68b6e853ee507d3a2954c4cc3465e9"><div class="ttname"><a href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">user::following</a></div><div class="ttdeci">int following</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00020">users.c:20</a></div></div>
+<div class="ttc" id="astructuser_html"><div class="ttname"><a href="structuser.html">user</a></div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00013">users.c:13</a></div></div>
+<div class="ttc" id="astructuser_html_ad7fb9caacfe9f2ff9fe4256b238bd63a"><div class="ttname"><a href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">user::followers_list</a></div><div class="ttdeci">int * followers_list</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00019">users.c:19</a></div></div>
+<div class="ttc" id="astructuser_html_a283c03a9e5a014e096a980da2d57a753"><div class="ttname"><a href="structuser.html#a283c03a9e5a014e096a980da2d57a753">user::created_at</a></div><div class="ttdeci">LTempo created_at</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00017">users.c:17</a></div></div>
+<div class="ttc" id="astructuser_html_a5b4f587198610f9f019412f921e2a143"><div class="ttname"><a href="structuser.html#a5b4f587198610f9f019412f921e2a143">user::login</a></div><div class="ttdeci">char * login</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00015">users.c:15</a></div></div>
+<div class="ttc" id="ausers_8h_html_a5a8d35ad472eaed3d7eb4f7b3fdf813c"><div class="ttname"><a href="users_8h.html#a5a8d35ad472eaed3d7eb4f7b3fdf813c">get_Login</a></div><div class="ttdeci">char * get_Login(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00047">users.c:47</a></div></div>
+<div class="ttc" id="ausers_8h_html_a8e7e943d52812c6d5cd4584335c375bd"><div class="ttname"><a href="users_8h.html#a8e7e943d52812c6d5cd4584335c375bd">set_Following_List</a></div><div class="ttdeci">void set_Following_List(LUSER u, const int *following_list, int following)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00123">users.c:123</a></div></div>
+<div class="ttc" id="ausers_8h_html_a82f1de12f931eb2ad9ee524fc9bb9ea1"><div class="ttname"><a href="users_8h.html#a82f1de12f931eb2ad9ee524fc9bb9ea1">set_Login</a></div><div class="ttdeci">void set_Login(LUSER u, char *login)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00051">users.c:51</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">INVALID</a></div><div class="ttdeci">@ INVALID</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00030">users.h:30</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2d"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a></div><div class="ttdeci">type</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00026">users.h:26</a></div></div>
+<div class="ttc" id="ausers_8h_html_abe49afa5ab9e322abb258a8da4cef23b"><div class="ttname"><a href="users_8h.html#abe49afa5ab9e322abb258a8da4cef23b">get_Public_Repos</a></div><div class="ttdeci">int get_Public_Repos(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00141">users.c:141</a></div></div>
+<div class="ttc" id="astructtime_html"><div class="ttname"><a href="structtime.html">time</a></div><div class="ttdef"><b>Definition:</b> <a href="Data_8c_source.html#l00029">Data.c:29</a></div></div>
+<div class="ttc" id="ausers_8h_html_a48b2ea020e911861c98f811c6a9ecee3"><div class="ttname"><a href="users_8h.html#a48b2ea020e911861c98f811c6a9ecee3">valid_User</a></div><div class="ttdeci">int valid_User(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00171">users.c:171</a></div></div>
+<div class="ttc" id="ausers_8h_html_a4291a4ef910f091d4582cc44069e8bcd"><div class="ttname"><a href="users_8h.html#a4291a4ef910f091d4582cc44069e8bcd">build_User</a></div><div class="ttdeci">LUSER build_User(char *line)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00233">users.c:233</a></div></div>
+<div class="ttc" id="ausers_8h_html_a26e28b6ad64817a3d9fa6ce8c7cbfae4"><div class="ttname"><a href="users_8h.html#a26e28b6ad64817a3d9fa6ce8c7cbfae4">set_Created_At_User</a></div><div class="ttdeci">void set_Created_At_User(LUSER u, LTempo created_at)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00068">users.c:68</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c">ORGANIZATION</a></div><div class="ttdeci">@ ORGANIZATION</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00028">users.h:28</a></div></div>
+<div class="ttc" id="ausers_8h_html_a018f2f8f41932e00c1f26a68f7b22b9e"><div class="ttname"><a href="users_8h.html#a018f2f8f41932e00c1f26a68f7b22b9e">get_Public_Gits</a></div><div class="ttdeci">int get_Public_Gits(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00133">users.c:133</a></div></div>
+<div class="ttc" id="ausers_8h_html_a76586b98a069700ad74389123719d998"><div class="ttname"><a href="users_8h.html#a76586b98a069700ad74389123719d998">get_Following_List</a></div><div class="ttdeci">int * get_Following_List(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00111">users.c:111</a></div></div>
+<div class="ttc" id="astructuser_html_a38f2e34d76e85ceac3bf16fbbd3d26ca"><div class="ttname"><a href="structuser.html#a38f2e34d76e85ceac3bf16fbbd3d26ca">user::public_repos</a></div><div class="ttdeci">int public_repos</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00023">users.c:23</a></div></div>
+<div class="ttc" id="astructuser_html_a47338fd60119a3e06442f32db799d419"><div class="ttname"><a href="structuser.html#a47338fd60119a3e06442f32db799d419">user::following_list</a></div><div class="ttdeci">int * following_list</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00021">users.c:21</a></div></div>
+<div class="ttc" id="ausers_8h_html_aa043b5684ea7cee44dd19f693966993a"><div class="ttname"><a href="users_8h.html#aa043b5684ea7cee44dd19f693966993a">set_Type</a></div><div class="ttdeci">void set_Type(LUSER u, TIPO type)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00060">users.c:60</a></div></div>
+<div class="ttc" id="ausers_8h_html_aa4733e0dc81c5c18586fa7f8a6956259"><div class="ttname"><a href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a></div><div class="ttdeci">struct user * LUSER</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00036">users.h:36</a></div></div>
+<div class="ttc" id="astructuser_html_ac8f1af756820b9bdc04999db1c267dda"><div class="ttname"><a href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">user::followers</a></div><div class="ttdeci">int followers</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00018">users.c:18</a></div></div>
+<div class="ttc" id="ausers_8h_html_a9a81c3051a6136f7581aab64a6e4c67d"><div class="ttname"><a href="users_8h.html#a9a81c3051a6136f7581aab64a6e4c67d">set_Public_Repos</a></div><div class="ttdeci">void set_Public_Repos(LUSER u, int public_repos)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00145">users.c:145</a></div></div>
+<div class="ttc" id="ausers_8h_html_ab276539cdb6ff784338eac999a511122"><div class="ttname"><a href="users_8h.html#ab276539cdb6ff784338eac999a511122">GAddUsers</a></div><div class="ttdeci">void GAddUsers(LUSER user, GHashTable *hash)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00027">users.c:27</a></div></div>
+<div class="ttc" id="ausers_8h_html_a9edff29498b93402aa92f675a7de271f"><div class="ttname"><a href="users_8h.html#a9edff29498b93402aa92f675a7de271f">get_Following</a></div><div class="ttdeci">int get_Following(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00103">users.c:103</a></div></div>
+<div class="ttc" id="ausers_8h_html_a660d1948264b66170b592b90c24b9eab"><div class="ttname"><a href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a></div><div class="ttdeci">enum type TIPO</div></div>
+<div class="ttc" id="ausers_8h_html_adb45e9d1d9027b19d819121cbfbc8cf2"><div class="ttname"><a href="users_8h.html#adb45e9d1d9027b19d819121cbfbc8cf2">toString_Type</a></div><div class="ttdeci">char * toString_Type(TIPO type)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00257">users.c:257</a></div></div>
+<div class="ttc" id="ausers_8h_html_a2a7ae2f8da5635389907dc366e01374a"><div class="ttname"><a href="users_8h.html#a2a7ae2f8da5635389907dc366e01374a">set_Public_Gits</a></div><div class="ttdeci">void set_Public_Gits(LUSER u, int public_gits)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00137">users.c:137</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b">USER</a></div><div class="ttdeci">@ USER</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00029">users.h:29</a></div></div>
+<div class="ttc" id="ausers_8h_html_a5e95453a5096242b56b8de1deedd1714"><div class="ttname"><a href="users_8h.html#a5e95453a5096242b56b8de1deedd1714">GGetUser</a></div><div class="ttdeci">LUSER GGetUser(int key, GHashTable *hash)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00032">users.c:32</a></div></div>
+<div class="ttc" id="ausers_8h_html_ab0513636f2c4c8b0856150297ec0831a"><div class="ttname"><a href="users_8h.html#ab0513636f2c4c8b0856150297ec0831a">set_Followers</a></div><div class="ttdeci">void set_Followers(LUSER u, int followers)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00077">users.c:77</a></div></div>
+<div class="ttc" id="ausers_8h_html_a2a0c35cbf493d8c94145d8a6e483afe3"><div class="ttname"><a href="users_8h.html#a2a0c35cbf493d8c94145d8a6e483afe3">set_Followers_List</a></div><div class="ttdeci">void set_Followers_List(LUSER u, const int *followers_list, int followers)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00093">users.c:93</a></div></div>
+<div class="ttc" id="ausers_8h_html_ad4638d9dc46c42b617254497f185b6fd"><div class="ttname"><a href="users_8h.html#ad4638d9dc46c42b617254497f185b6fd">get_ID_User</a></div><div class="ttdeci">int get_ID_User(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00039">users.c:39</a></div></div>
+<div class="ttc" id="ausers_8h_html_a26367dc79d4e64e9cef013339e54ab72"><div class="ttname"><a href="users_8h.html#a26367dc79d4e64e9cef013339e54ab72">free_User</a></div><div class="ttdeci">void free_User(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00149">users.c:149</a></div></div>
+<div class="ttc" id="ausers_8h_html_a38f06fcf7b9edfba3122e3c24ab450d9"><div class="ttname"><a href="users_8h.html#a38f06fcf7b9edfba3122e3c24ab450d9">get_Type</a></div><div class="ttdeci">TIPO get_Type(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00056">users.c:56</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_5c067e43b62dc1a915e487a737196819.html">model</a></li><li class="navelem"><a class="el" href="dir_7ad55b8c460d6796cf8829320a6708bf.html">Catalogo_User</a></li><li class="navelem"><a class="el" href="users_8h.html">users.h</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>

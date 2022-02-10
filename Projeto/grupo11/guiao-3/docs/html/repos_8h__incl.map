@@ -1,0 +1,13 @@
+<map id="include/model/Catalogo_Repos/repos.h" name="include/model/Catalogo_Repos/repos.h">
+<area shape="rect" id="node1" title="Ficheiro que contém as funções que para trabalhar com os repos." alt="" coords="256,5,432,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="48,102,131,129"/>
+<area shape="rect" id="node3" href="$Funcoes__Aux_8h.html" title="Ficheiro que contém as funções auxiliares." alt="" coords="113,184,244,211"/>
+<area shape="rect" id="node8" href="$Data_8h.html" title="Ficheiro que contém as funções que para trabalhar com o tipo de LTempo." alt="" coords="287,184,364,211"/>
+<area shape="rect" id="node9" href="$ghash__func__gerais_8h.html" title="Ficheiro que contém as funções para trabalhar com *GHashTable." alt="" coords="491,102,658,129"/>
+<area shape="rect" id="node10" title=" " alt="" coords="398,184,509,211"/>
+<area shape="rect" id="node11" href="$commits_8h.html" title="Ficheiro que contém as funções que para trabalhar com os commits." alt="" coords="206,95,365,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,259,72,285"/>
+<area shape="rect" id="node5" title=" " alt="" coords="97,259,167,285"/>
+<area shape="rect" id="node6" title=" " alt="" coords="191,259,262,285"/>
+<area shape="rect" id="node7" title=" " alt="" coords="286,259,357,285"/>
+</map>

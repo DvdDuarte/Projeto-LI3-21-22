@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['strikethrough_5fblack_994',['STRIKETHROUGH_BLACK',['../colors_8h.html#a3e79f58705cf2248af91f7e8f080e866',1,'colors.h']]],
+  ['strikethrough_5fblue_995',['STRIKETHROUGH_BLUE',['../colors_8h.html#abbce402825f8742b59847fc7c41bc798',1,'colors.h']]],
+  ['strikethrough_5fbright_5fblack_996',['STRIKETHROUGH_BRIGHT_BLACK',['../colors_8h.html#a5c2a43c0a52450297e8936bda2068691',1,'colors.h']]],
+  ['strikethrough_5fbright_5fblue_997',['STRIKETHROUGH_BRIGHT_BLUE',['../colors_8h.html#a4d61caf0f5837a36da033d1ab6f79f88',1,'colors.h']]],
+  ['strikethrough_5fbright_5fcyan_998',['STRIKETHROUGH_BRIGHT_CYAN',['../colors_8h.html#a0586c5858b7441a3ba95f145aee338a8',1,'colors.h']]],
+  ['strikethrough_5fbright_5fgreen_999',['STRIKETHROUGH_BRIGHT_GREEN',['../colors_8h.html#ae93c7971cc87d4711237322569459810',1,'colors.h']]],
+  ['strikethrough_5fbright_5fmagenta_1000',['STRIKETHROUGH_BRIGHT_MAGENTA',['../colors_8h.html#a5bac1f9c458e96fbc508751c7c2a60b0',1,'colors.h']]],
+  ['strikethrough_5fbright_5fred_1001',['STRIKETHROUGH_BRIGHT_RED',['../colors_8h.html#a77628df43b860737a6bfbff93dd18e24',1,'colors.h']]],
+  ['strikethrough_5fbright_5fwhite_1002',['STRIKETHROUGH_BRIGHT_WHITE',['../colors_8h.html#a7e588a912a120e45b0e1087f811b6fdc',1,'colors.h']]],
+  ['strikethrough_5fbright_5fyellow_1003',['STRIKETHROUGH_BRIGHT_YELLOW',['../colors_8h.html#af1ea98e67ca073d0ea79c71ef7043963',1,'colors.h']]],
+  ['strikethrough_5fcyan_1004',['STRIKETHROUGH_CYAN',['../colors_8h.html#ad25b3ba08cd3f781fdd09fd61dba4677',1,'colors.h']]],
+  ['strikethrough_5fgreen_1005',['STRIKETHROUGH_GREEN',['../colors_8h.html#a83739b326c5756ebda53ddf2b6531fcd',1,'colors.h']]],
+  ['strikethrough_5fmagenta_1006',['STRIKETHROUGH_MAGENTA',['../colors_8h.html#a311a568e679042507b930ec4a66ee696',1,'colors.h']]],
+  ['strikethrough_5fred_1007',['STRIKETHROUGH_RED',['../colors_8h.html#abe96e20f4bb998b88f080af3196d0a63',1,'colors.h']]],
+  ['strikethrough_5fwhite_1008',['STRIKETHROUGH_WHITE',['../colors_8h.html#a6d4001c78213dbf427314e8685c5e9aa',1,'colors.h']]],
+  ['strikethrough_5fyellow_1009',['STRIKETHROUGH_YELLOW',['../colors_8h.html#a7a3e79efe0674aff4c2e2579b12e852b',1,'colors.h']]]
+];

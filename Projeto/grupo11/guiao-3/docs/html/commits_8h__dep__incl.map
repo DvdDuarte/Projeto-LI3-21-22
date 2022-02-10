@@ -1,0 +1,28 @@
+<map id="include/model/Catalogo_Commits/commits.h" name="include/model/Catalogo_Commits/commits.h">
+<area shape="rect" id="node1" title="Ficheiro que contém as funções que para trabalhar com os commits." alt="" coords="590,5,766,47"/>
+<area shape="rect" id="node2" href="$catalogo__commits_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de commits." alt="" coords="274,184,498,225"/>
+<area shape="rect" id="node15" href="$queries__parametrizaveis_8c.html" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="5,467,196,508"/>
+<area shape="rect" id="node20" href="$repos_8h.html" title="Ficheiro que contém as funções que para trabalhar com os repos." alt="" coords="590,95,766,136"/>
+<area shape="rect" id="node23" href="$file__work__validacoes_8h.html" title="Ficheiro que contém as funções que para validar os ficheiros obtidos no exercício 1." alt="" coords="997,184,1212,225"/>
+<area shape="rect" id="node26" href="$commits_8c.html" title="Ficheiro que contém as funções que para trabalhar com os commits." alt="" coords="841,95,1001,136"/>
+<area shape="rect" id="node3" href="$sgr_8h.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="462,288,635,315"/>
+<area shape="rect" id="node17" href="$catalogs__file__work_8h.html" title="Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos." alt="" coords="289,273,437,329"/>
+<area shape="rect" id="node18" href="$catalogs__file__work_8c.html" title="Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos." alt="" coords="139,377,297,419"/>
+<area shape="rect" id="node19" href="$catalogo__commits_8c.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de commits." alt="" coords="660,281,883,322"/>
+<area shape="rect" id="node4" href="$queries__estatisticas_8h.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="799,377,967,419"/>
+<area shape="rect" id="node8" href="$exercicios_8h.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="1060,467,1195,508"/>
+<area shape="rect" id="node13" href="$maintests_8c.html" title=" " alt="" coords="521,474,718,501"/>
+<area shape="rect" id="node14" href="$queries__parametrizaveis_8h.html" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="491,377,689,419"/>
+<area shape="rect" id="node16" href="$sgr_8c.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="322,385,466,411"/>
+<area shape="rect" id="node5" href="$controller_8h.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="845,645,980,687"/>
+<area shape="rect" id="node11" href="$exercicios_8c.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="793,563,979,590"/>
+<area shape="rect" id="node12" href="$queries__estatisticas_8c.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="793,467,984,508"/>
+<area shape="rect" id="node6" href="$controller_8c.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="741,735,924,761"/>
+<area shape="rect" id="node7" href="$main_8c.html" title="Ficheiro que contém a função principal do sistema de gestão de repositórios." alt="" coords="948,735,1037,761"/>
+<area shape="rect" id="node9" href="$interpretador_8h.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="1004,556,1139,597"/>
+<area shape="rect" id="node10" href="$interpretador_8c.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="551,653,757,679"/>
+<area shape="rect" id="node21" href="$catalogo__repos_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de repos." alt="" coords="522,184,706,225"/>
+<area shape="rect" id="node25" href="$repos_8c.html" title="Ficheiro que contém as funções que para trabalhar com os repos." alt="" coords="781,184,929,225"/>
+<area shape="rect" id="node22" href="$catalogo__repos_8c.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de repos." alt="" coords="907,281,1089,322"/>
+<area shape="rect" id="node24" href="$file__work__validacoes_8c.html" title="Ficheiro que contém as funções que para validar os ficheiros obtidos no exercício 1." alt="" coords="1165,281,1338,322"/>
+</map>

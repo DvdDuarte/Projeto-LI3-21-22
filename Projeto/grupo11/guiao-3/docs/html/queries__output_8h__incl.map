@@ -1,0 +1,15 @@
+<map id="include/view/queries_output.h" name="include/view/queries_output.h">
+<area shape="rect" id="node1" title="Ficheiro que contém as funções para apresentar os resultados das queries." alt="" coords="233,5,389,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,259,72,285"/>
+<area shape="rect" id="node3" title=" " alt="" coords="282,259,353,285"/>
+<area shape="rect" id="node4" title=" " alt="" coords="386,259,457,285"/>
+<area shape="rect" id="node5" href="$users_8h.html" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="287,95,462,136"/>
+<area shape="rect" id="node10" href="$table_8h.html" title="Ficheiro que contém as funções para trabalhar com FTABLE." alt="" coords="673,102,797,129"/>
+<area shape="rect" id="node11" href="$view_8h.html" title="Ficheiro que contém as funções para apresentar as diferentes partes da interface." alt="" coords="91,184,155,211"/>
+<area shape="rect" id="node6" href="$Funcoes__Aux_8h.html" title="Ficheiro que contém as funções auxiliares." alt="" coords="365,184,496,211"/>
+<area shape="rect" id="node8" href="$Data_8h.html" title="Ficheiro que contém as funções que para trabalhar com o tipo de LTempo." alt="" coords="520,184,597,211"/>
+<area shape="rect" id="node9" title=" " alt="" coords="230,184,341,211"/>
+<area shape="rect" id="node7" title=" " alt="" coords="481,259,551,285"/>
+<area shape="rect" id="node12" title=" " alt="" coords="96,259,160,285"/>
+<area shape="rect" id="node13" href="$colors_8h.html" title="Ficheiro que contém as cores a serem usadas na interface da aplicação." alt="" coords="185,259,258,285"/>
+</map>

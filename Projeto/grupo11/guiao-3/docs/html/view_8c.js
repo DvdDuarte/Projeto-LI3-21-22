@@ -1,0 +1,28 @@
+var view_8c =
+[
+    [ "paginacaoTop", "view_8c.html#a1b9c8cfc6c66e22361644745e11dfada", null ],
+    [ "printBuildingApp", "view_8c.html#a15a14d134fce316017b505c8c466690d", null ],
+    [ "printBuildingAppTime", "view_8c.html#ad3b50b3b6fdfdc4aaebdb02e2089c022", null ],
+    [ "printDefaultScreen", "view_8c.html#ad826b40dcaf69f064a8ab79939811858", null ],
+    [ "printFrameBottom", "view_8c.html#a3e8026ba321e89dc638e7ff4cbf86b8c", null ],
+    [ "printFrameTop", "view_8c.html#a14ce2fdc85c7111758e4492aa19db72c", null ],
+    [ "printLoadingCommits", "view_8c.html#a94efa1b5653125a3206019b87c8a88e2", null ],
+    [ "printLoadingRepos", "view_8c.html#ae6f832d3e50153ca00da1740d72b5143", null ],
+    [ "printLoadingUI", "view_8c.html#ab69b0f35b3fe3bfc59fd77cf11a29665", null ],
+    [ "printLoadingUsers", "view_8c.html#a997f6588c013191a837d2d3f34ec0b27", null ],
+    [ "printPaginacaoBottom", "view_8c.html#a1664c620e23921460edd897d0ea9defa", null ],
+    [ "printQueries", "view_8c.html#af2ad0ee0c4735c82e38e0b3ddc814f1d", null ],
+    [ "printQueriesBottom", "view_8c.html#a8225ccda311db1771f592075c3420987", null ],
+    [ "printQueriesScreen", "view_8c.html#af8bbb38ea958b48ee0c9b80c87fc6547", null ],
+    [ "printQueriesScreen1", "view_8c.html#adfff2052c786f07bbcc3a849e26d1872", null ],
+    [ "printQueriesScreen10", "view_8c.html#ad8c5544359f3b538337d2e06b15acbc1", null ],
+    [ "printQueriesScreen2", "view_8c.html#a227637da406e04e5116429edd3a3bbf9", null ],
+    [ "printQueriesScreen3", "view_8c.html#a34d1833dc57209f133174b647c42398e", null ],
+    [ "printQueriesScreen4", "view_8c.html#aa4b81e00c4347e8804e53417a8feeff8", null ],
+    [ "printQueriesScreen5", "view_8c.html#a78f9b63b07a23263c1a1bf60769efb4a", null ],
+    [ "printQueriesScreen6", "view_8c.html#ae2a1df36af4047dac97410f99ca420ae", null ],
+    [ "printQueriesScreen7", "view_8c.html#af4c7c8ee4b7ab181233475c1cb0650be", null ],
+    [ "printQueriesScreen8", "view_8c.html#a25b5ebeda0f3df4272465bafa29e1bb7", null ],
+    [ "printQueriesScreen9", "view_8c.html#a5879615ec328a41259f1224618d227de", null ],
+    [ "printQueriesTop", "view_8c.html#a0a2b1350b0f2771f21ac6451f7b4dde5", null ]
+];

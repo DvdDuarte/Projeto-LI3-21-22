@@ -1,0 +1,688 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Referência ao ficheiro include/view/queries_output.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 3
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('queries__output_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência ao ficheiro queries_output.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Ficheiro que contém as funções para apresentar os resultados das queries.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="users_8h_source.html">../model/Catalogo_User/users.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="table_8h_source.html">../model/table.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="view_8h_source.html">view.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Diagrama de dependências de inclusão para queries_output.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="queries__output_8h__incl.png" border="0" usemap="#include_2view_2queries__output_8h" alt=""/></div>
+<map name="include_2view_2queries__output_8h" id="include_2view_2queries__output_8h">
+<area shape="rect" title="Ficheiro que contém as funções para apresentar os resultados das queries." alt="" coords="233,5,389,47"/>
+<area shape="rect" title=" " alt="" coords="5,259,72,285"/>
+<area shape="rect" title=" " alt="" coords="282,259,353,285"/>
+<area shape="rect" title=" " alt="" coords="386,259,457,285"/>
+<area shape="rect" href="users_8h.html" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="287,95,462,136"/>
+<area shape="rect" href="table_8h.html" title="Ficheiro que contém as funções para trabalhar com FTABLE." alt="" coords="673,102,797,129"/>
+<area shape="rect" href="view_8h.html" title="Ficheiro que contém as funções para apresentar as diferentes partes da interface." alt="" coords="91,184,155,211"/>
+<area shape="rect" href="Funcoes__Aux_8h.html" title="Ficheiro que contém as funções auxiliares." alt="" coords="365,184,496,211"/>
+<area shape="rect" href="Data_8h.html" title="Ficheiro que contém as funções que para trabalhar com o tipo de LTempo." alt="" coords="520,184,597,211"/>
+<area shape="rect" title=" " alt="" coords="230,184,341,211"/>
+<area shape="rect" title=" " alt="" coords="481,259,551,285"/>
+<area shape="rect" title=" " alt="" coords="96,259,160,285"/>
+<area shape="rect" href="colors_8h.html" title="Ficheiro que contém as cores a serem usadas na interface da aplicação." alt="" coords="185,259,258,285"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro:</div>
+<div class="dyncontent">
+<div class="center"><img src="queries__output_8h__dep__incl.png" border="0" usemap="#include_2view_2queries__output_8hdep" alt=""/></div>
+<map name="include_2view_2queries__output_8hdep" id="include_2view_2queries__output_8hdep">
+<area shape="rect" title="Ficheiro que contém as funções para apresentar os resultados das queries." alt="" coords="436,5,592,47"/>
+<area shape="rect" href="queries__estatisticas_8h.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="329,95,497,136"/>
+<area shape="rect" href="queries__output_8c.html" title=" " alt="" coords="521,102,709,129"/>
+<area shape="rect" href="controller_8h.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="109,363,244,404"/>
+<area shape="rect" href="exercicios_8h.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="240,184,375,225"/>
+<area shape="rect" href="exercicios_8c.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="399,281,586,307"/>
+<area shape="rect" href="queries__estatisticas_8c.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="451,184,641,225"/>
+<area shape="rect" href="maintests_8c.html" title=" " alt="" coords="666,191,863,218"/>
+<area shape="rect" href="controller_8c.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="5,452,188,479"/>
+<area shape="rect" href="main_8c.html" title="Ficheiro que contém a função principal do sistema de gestão de repositórios." alt="" coords="212,452,301,479"/>
+<area shape="rect" href="interpretador_8h.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="240,273,375,315"/>
+<area shape="rect" href="interpretador_8c.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="268,370,475,397"/>
+</map>
+</div>
+</div>
+<p><a href="queries__output_8h_source.html">Ir para o código fonte deste ficheiro.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a9dbc81af1474dad93a18cbf1df355a99"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queries__output_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>&#160;&#160;&#160;1000000</td></tr>
+<tr class="memdesc:a9dbc81af1474dad93a18cbf1df355a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">O tamanho do buffer a ser usado.  <a href="queries__output_8h.html#a9dbc81af1474dad93a18cbf1df355a99">Mais...</a><br /></td></tr>
+<tr class="separator:a9dbc81af1474dad93a18cbf1df355a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ad28058d760322bf47648a1f88c29ebab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queries__output_8h.html#ad28058d760322bf47648a1f88c29ebab">query1_output</a> (FILE *outstream, int bots, int org, int <a class="el" href="structuser.html">user</a>, int <a class="el" href="structtime.html">time</a>)</td></tr>
+<tr class="memdesc:ad28058d760322bf47648a1f88c29ebab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função que imprime os resultados da query 1.  <a href="queries__output_8h.html#ad28058d760322bf47648a1f88c29ebab">Mais...</a><br /></td></tr>
+<tr class="separator:ad28058d760322bf47648a1f88c29ebab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a183c238d5d1140c58dc427f5840746"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queries__output_8h.html#a5a183c238d5d1140c58dc427f5840746">queries_pares_output</a> (FILE *outstream, int flag, float avg, int <a class="el" href="structtime.html">time</a>)</td></tr>
+<tr class="memdesc:a5a183c238d5d1140c58dc427f5840746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função que imprime os resultados da query 2 e 4.  <a href="queries__output_8h.html#a5a183c238d5d1140c58dc427f5840746">Mais...</a><br /></td></tr>
+<tr class="separator:a5a183c238d5d1140c58dc427f5840746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d7109a6f6158d40b37e942f9090c1a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queries__output_8h.html#a3d7109a6f6158d40b37e942f9090c1a4">query3_output</a> (FILE *outstream, int bots, int <a class="el" href="structtime.html">time</a>)</td></tr>
+<tr class="memdesc:a3d7109a6f6158d40b37e942f9090c1a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função que imprime os resultados da query 3.  <a href="queries__output_8h.html#a3d7109a6f6158d40b37e942f9090c1a4">Mais...</a><br /></td></tr>
+<tr class="separator:a3d7109a6f6158d40b37e942f9090c1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae34580c9399f16b8da603629af5c6bc1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queries__output_8h.html#ae34580c9399f16b8da603629af5c6bc1">paginacao_output</a> (<a class="el" href="table_8h.html#a9e6b41e12781220da24b4a81e6523b74">FTABLE</a> ftable, int page_number, int topN, int <a class="el" href="structtime.html">time</a>)</td></tr>
+<tr class="memdesc:ae34580c9399f16b8da603629af5c6bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função que imprime a página dada.  <a href="queries__output_8h.html#ae34580c9399f16b8da603629af5c6bc1">Mais...</a><br /></td></tr>
+<tr class="separator:ae34580c9399f16b8da603629af5c6bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a870247e94b934f07fdbc9af8b7d05542"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="queries__output_8h.html#a870247e94b934f07fdbc9af8b7d05542">building</a> ()</td></tr>
+<tr class="memdesc:a870247e94b934f07fdbc9af8b7d05542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função que imprime que ainda não está implementado.  <a href="queries__output_8h.html#a870247e94b934f07fdbc9af8b7d05542">Mais...</a><br /></td></tr>
+<tr class="separator:a870247e94b934f07fdbc9af8b7d05542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Ficheiro que contém as funções para apresentar os resultados das queries. </p>
+<dl class="section author"><dt>Autor</dt><dd>grupo11 </dd></dl>
+<dl class="section version"><dt>Versão</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>2022-02-07</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2022 </dd></dl>
+
+<p class="definition">Definido no ficheiro <a class="el" href="queries__output_8h_source.html">queries_output.h</a>.</p>
+</div><h2 class="groupheader">Documentação das macros</h2>
+<a id="a9dbc81af1474dad93a18cbf1df355a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbc81af1474dad93a18cbf1df355a99">&#9670;&nbsp;</a></span>buffer_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define buffer_size&#160;&#160;&#160;1000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>O tamanho do buffer a ser usado. </p>
+
+<p class="definition">Definido na linha <a class="el" href="queries__output_8h_source.html#l00026">26</a> do ficheiro <a class="el" href="queries__output_8h_source.html">queries_output.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="a870247e94b934f07fdbc9af8b7d05542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a870247e94b934f07fdbc9af8b7d05542">&#9670;&nbsp;</a></span>building()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void building </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função que imprime que ainda não está implementado. </p>
+
+<p class="definition">Definido na linha <a class="el" href="queries__output_8c_source.html#l00221">221</a> do ficheiro <a class="el" href="queries__output_8c_source.html">queries_output.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;               {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="comment">/*</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="comment">░█▀█░█▀█░▀█▀░░░▀█▀░█▄█░█▀█░█░░░█▀▀░█▄█░█▀▀░█▀█░▀█▀░█▀▀░█▀▄</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="comment">░█░█░█░█░░█░░░░░█░░█░█░█▀▀░█░░░█▀▀░█░█░█▀▀░█░█░░█░░█▀▀░█░█</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="comment">░▀░▀░▀▀▀░░▀░░░░▀▀▀░▀░▀░▀░░░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀░</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <a class="code" href="view_8h.html#a0a2b1350b0f2771f21ac6451f7b4dde5">printQueriesTop</a>();</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        puts(<a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        printf(<span class="stringliteral">&quot;                     ╔════════════════════════════════════════════════════════════════════════════════════════════╗\n&quot;</span>);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;               <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 8; i++)</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;       </div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        printf(<span class="stringliteral">&quot;                     ║  %s           ░█▀█░█▀█░▀█▀░░░▀█▀░█▄█░█▀█░█░░░█▀▀░█▄█░█▀▀░█▀█░▀█▀░█▀▀░█▀▄%s                     ║\n&quot;</span>, <a class="code" href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        printf(<span class="stringliteral">&quot;                     ║  %s           ░█░█░█░█░░█░░░░░█░░█░█░█▀▀░█░░░█▀▀░█░█░█▀▀░█░█░░█░░█▀▀░█░█%s                     ║\n&quot;</span>, <a class="code" href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        printf(<span class="stringliteral">&quot;                     ║  %s           ░▀░▀░▀▀▀░░▀░░░░▀▀▀░▀░▀░▀░░░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀░%s                     ║\n&quot;</span>, <a class="code" href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 8; i++)</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        printf(<span class="stringliteral">&quot;                     ╚════════════════════════════════════════════════════════════════════════════════════════════╝&quot;</span>);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <a class="code" href="view_8h.html#a8225ccda311db1771f592075c3420987">printQueriesBottom</a>();</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae34580c9399f16b8da603629af5c6bc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae34580c9399f16b8da603629af5c6bc1">&#9670;&nbsp;</a></span>paginacao_output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int paginacao_output </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="table_8h.html#a9e6b41e12781220da24b4a81e6523b74">FTABLE</a>&#160;</td>
+          <td class="paramname"><em>ftable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>page_number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>topN</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função que imprime a página dada. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ftable</td><td>A tabela que contem os nomes dos ficheiros pra fazer a paginação </td></tr>
+    <tr><td class="paramname">page_number</td><td>O número da página a ser impressa </td></tr>
+    <tr><td class="paramname">pg_total</td><td>O número total de páginas </td></tr>
+    <tr><td class="paramname">time</td><td>O tempo que a query demorou a ser executada </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>int Retorna 0 se bem sucedida </dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="queries__output_8c_source.html#l00166">166</a> do ficheiro <a class="el" href="queries__output_8c_source.html">queries_output.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">    int resto = 0;</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">    int nmr_paginas = 1;</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">    resto = topN % 19;</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="comment">    if(topN &gt; 19) {</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">        nmr_paginas = topN / 19;</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment">        if(resto != 0) nmr_paginas++;</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">if</span>(ftable == NULL) <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordtype">char</span>* filename = <a class="code" href="table_8h.html#a9867ac46186842f16ebbfa83ffb24c59">get_ftable_data</a>(ftable);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    FILE * leitura = fopen(filename,<span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <a class="code" href="view_8h.html#a1b9c8cfc6c66e22361644745e11dfada">paginacaoTop</a>();</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordtype">char</span> buffer[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordtype">int</span> sec = <a class="code" href="structtime.html">time</a> / 1000;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordtype">float</span> msec = <a class="code" href="structtime.html">time</a> % 100;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    printf(<span class="stringliteral">&quot;                     %s   Query Time: %s%d.%d&quot;</span>,<a class="code" href="colors_8h.html#a08800e737f550f758120b8e717789a56">BOLD_GREEN</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, sec, msec);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="comment">//FILE *input_file = fopen(input_file_name, &quot;r&quot;);</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    puts(<a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    printf(<span class="stringliteral">&quot;                     ╔════════════════════════════════════════════════════════════════════════════════════════════╗\n&quot;</span>);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 19 &amp;&amp; fgets(buffer, <a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>, leitura); i++){</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="comment">/*if(fgets(buffer, buffer_size, leitura) == NULL) {</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="comment">            system(&quot;clear&quot;);</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="comment">            return -1;</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="comment">            }*/</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordtype">char</span> *buffer2;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        buffer2 = strtok(buffer, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        printf(<span class="stringliteral">&quot;                     ║ %s %s %s&quot;</span>,<a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, buffer2, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordtype">int</span> tamanho = strlen(buffer2); </div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 89-tamanho; j &gt; 0; j--){</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        }</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        printf(<span class="stringliteral">&quot;║\n&quot;</span>);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    printf(<span class="stringliteral">&quot;                     ║ Page:%d/%d&quot;</span>, page_number,pg_total);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordtype">char</span> page[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    sprintf(page, <span class="stringliteral">&quot; Page:%d/%d&quot;</span>, page_number,pg_total);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordtype">int</span> page_size = strlen(page); </div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 92-page_size; j &gt; 0; j--){</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    }</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    printf(<span class="stringliteral">&quot;║\n&quot;</span>);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    printf(<span class="stringliteral">&quot;                     ╚════════════════════════════════════════════════════════════════════════════════════════════╝&quot;</span>);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    puts(<a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="view_8h.html#a1664c620e23921460edd897d0ea9defa">printPaginacaoBottom</a>();</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    puts(<a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    fclose(leitura);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5a183c238d5d1140c58dc427f5840746"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a183c238d5d1140c58dc427f5840746">&#9670;&nbsp;</a></span>queries_pares_output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void queries_pares_output </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>outstream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>avg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função que imprime os resultados da query 2 e 4. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outstream</td><td>O apontador do ficheiro a escrever </td></tr>
+    <tr><td class="paramname">flag</td><td>O número da flag a executar </td></tr>
+    <tr><td class="paramname">avg</td><td>A média obtida na query </td></tr>
+    <tr><td class="paramname">time</td><td>O tempo que a query demorou a ser executada </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="queries__output_8c_source.html#l00072">72</a> do ficheiro <a class="el" href="queries__output_8c_source.html">queries_output.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">if</span>(outstream == NULL &amp;&amp; flag == 2) {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="view_8h.html#a0a2b1350b0f2771f21ac6451f7b4dde5">printQueriesTop</a>();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        printf(<span class="stringliteral">&quot;                     ╔════════════════════════════════════════════════════════════════════════════════════════════╗\n&quot;</span>);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        printf(<span class="stringliteral">&quot;                     ║   %sNúmero médio de colaboradores por repositório: %s%.2f%s                                      ║\n&quot;</span>, <a class="code" href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, avg, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 16; i++) </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordtype">int</span> sec = <a class="code" href="structtime.html">time</a> / 1000;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordtype">float</span> msec = <a class="code" href="structtime.html">time</a> % 100;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="comment">//printf(&quot;                     %s║%s   Loading Time: %s%d.%d&quot;, BOLD_CYAN, BOLD_GREEN, RESET, time/1000, time%100);</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        printf(<span class="stringliteral">&quot;                     %s║%s   Query Time: %s%d.%d&quot;</span>,<a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>, <a class="code" href="colors_8h.html#a08800e737f550f758120b8e717789a56">BOLD_GREEN</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, sec, msec);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordtype">char</span> ssec[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        sprintf(ssec, <span class="stringliteral">&quot;%d.%d&quot;</span>, sec, msec);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordtype">int</span> ssec_size = strlen(ssec); </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 75-ssec_size; j &gt; 0; j--){</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        printf(<span class="stringliteral">&quot;%s║\n&quot;</span>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        printf(<span class="stringliteral">&quot;                     ╚════════════════════════════════════════════════════════════════════════════════════════════╝&quot;</span>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <a class="code" href="view_8h.html#a8225ccda311db1771f592075c3420987">printQueriesBottom</a>();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(outstream == NULL &amp;&amp; flag == 4){</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="view_8h.html#a0a2b1350b0f2771f21ac6451f7b4dde5">printQueriesTop</a>();</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        printf(<span class="stringliteral">&quot;                     ╔════════════════════════════════════════════════════════════════════════════════════════════╗\n&quot;</span>);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        printf(<span class="stringliteral">&quot;                     ║   %sQuantidade média de commits por utilizador: %s%.2f%s                                         ║\n&quot;</span>, <a class="code" href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, avg, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 16; i++) </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordtype">int</span> sec = <a class="code" href="structtime.html">time</a> / 1000;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordtype">float</span> msec = <a class="code" href="structtime.html">time</a> % 100;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="comment">//printf(&quot;                     %s║%s   Loading Time: %s%d.%d&quot;, BOLD_CYAN, BOLD_GREEN, RESET, time/1000, time%100);</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        printf(<span class="stringliteral">&quot;                     %s║%s   Query Time: %s%d.%d&quot;</span>,<a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>, <a class="code" href="colors_8h.html#a08800e737f550f758120b8e717789a56">BOLD_GREEN</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, sec, msec);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordtype">char</span> ssec[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        sprintf(ssec, <span class="stringliteral">&quot;%d.%d&quot;</span>, sec, msec);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordtype">int</span> ssec_size = strlen(ssec); </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 75-ssec_size; j &gt; 0; j--){</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        printf(<span class="stringliteral">&quot;%s║\n&quot;</span>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        printf(<span class="stringliteral">&quot;                     ╚════════════════════════════════════════════════════════════════════════════════════════════╝&quot;</span>);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="view_8h.html#a8225ccda311db1771f592075c3420987">printQueriesBottom</a>();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        fprintf(outstream, <span class="stringliteral">&quot;%.2f\n&quot;</span>, avg);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad28058d760322bf47648a1f88c29ebab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28058d760322bf47648a1f88c29ebab">&#9670;&nbsp;</a></span>query1_output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void query1_output </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>outstream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bots</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>org</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função que imprime os resultados da query 1. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outstream</td><td>O apontador do ficheiro a escrever </td></tr>
+    <tr><td class="paramname">bots</td><td>O número de bots </td></tr>
+    <tr><td class="paramname">org</td><td>O número de org </td></tr>
+    <tr><td class="paramname">user</td><td>O número de users </td></tr>
+    <tr><td class="paramname">time</td><td>O tempo que a query demorou a ser executada </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="queries__output_8c_source.html#l00014">14</a> do ficheiro <a class="el" href="queries__output_8c_source.html">queries_output.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">if</span>(outstream == NULL) {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="view_8h.html#a0a2b1350b0f2771f21ac6451f7b4dde5">printQueriesTop</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        puts(<a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        printf(<span class="stringliteral">&quot;                     ╔════════════════════════════════════════════════════════════════════════════════════════════╗\n&quot;</span>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        printf(<span class="stringliteral">&quot;                     ║        %sBot: %s%d&quot;</span>,<a class="code" href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, bots);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordtype">char</span> sbots[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        sprintf(sbots, <span class="stringliteral">&quot;%d&quot;</span>, bots);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">int</span> sbots_size = strlen(sbots); </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 79-sbots_size; j &gt; 0; j--){</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        printf(<span class="stringliteral">&quot;%s║\n&quot;</span>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        printf(<span class="stringliteral">&quot;                     ║        %sOrganization: %s%d&quot;</span>, <a class="code" href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, org);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">char</span> sorg[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        sprintf(sorg, <span class="stringliteral">&quot;%d&quot;</span>, org);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">int</span> sorg_size = strlen(sorg); </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 70-sorg_size; j &gt; 0; j--){</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        printf(<span class="stringliteral">&quot;%s║\n&quot;</span>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        printf(<span class="stringliteral">&quot;                     ║        %sUser: %s%d&quot;</span>, <a class="code" href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, <a class="code" href="structuser.html">user</a>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">char</span> suser[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        sprintf(suser, <span class="stringliteral">&quot;%d&quot;</span>, <a class="code" href="structuser.html">user</a>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordtype">int</span> suser_size = strlen(suser); </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 78-suser_size; j &gt; 0; j--){</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        printf(<span class="stringliteral">&quot;%s║\n&quot;</span>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 12; i++)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">int</span> sec = <a class="code" href="structtime.html">time</a> / 1000;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">float</span> msec = <a class="code" href="structtime.html">time</a> % 100;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">//printf(&quot;                     %s║%s   Loading Time: %s%d.%d&quot;, BOLD_CYAN, BOLD_GREEN, RESET, time/1000, time%100);</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        printf(<span class="stringliteral">&quot;                     %s║%s   Query Time: %s%d.%d&quot;</span>,<a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>, <a class="code" href="colors_8h.html#a08800e737f550f758120b8e717789a56">BOLD_GREEN</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, sec, msec);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">char</span> ssec[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        sprintf(ssec, <span class="stringliteral">&quot;%d.%d&quot;</span>, sec, msec);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">int</span> ssec_size = strlen(ssec); </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 76-ssec_size; j &gt; 0; j--){</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        printf(<span class="stringliteral">&quot;%s║\n&quot;</span>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        printf(<span class="stringliteral">&quot;                     ╚════════════════════════════════════════════════════════════════════════════════════════════╝&quot;</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="view_8h.html#a8225ccda311db1771f592075c3420987">printQueriesBottom</a>();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        fprintf(outstream, <span class="stringliteral">&quot;Bot: %d\n&quot;</span>, bots);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        fprintf(outstream, <span class="stringliteral">&quot;Organization: %d\n&quot;</span>, org);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        fprintf(outstream, <span class="stringliteral">&quot;User: %d&quot;</span>, <a class="code" href="structuser.html">user</a>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3d7109a6f6158d40b37e942f9090c1a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d7109a6f6158d40b37e942f9090c1a4">&#9670;&nbsp;</a></span>query3_output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void query3_output </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>outstream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>bots</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Função que imprime os resultados da query 3. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outstream</td><td>O apontador do ficheiro a escrever </td></tr>
+    <tr><td class="paramname">bots</td><td>O número de bots </td></tr>
+    <tr><td class="paramname">time</td><td>O tempo que a query demorou a ser executada </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="queries__output_8c_source.html#l00124">124</a> do ficheiro <a class="el" href="queries__output_8c_source.html">queries_output.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                                                        {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="keywordflow">if</span>(outstream == NULL) {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="view_8h.html#a0a2b1350b0f2771f21ac6451f7b4dde5">printQueriesTop</a>();</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        puts(<a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        printf(<span class="stringliteral">&quot;                     ╔════════════════════════════════════════════════════════════════════════════════════════════╗\n&quot;</span>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        printf(<span class="stringliteral">&quot;                     ║  %sQuantidade de repositórios com bots: %s%d&quot;</span>,<a class="code" href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, bots);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordtype">char</span> sbots[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        sprintf(sbots, <span class="stringliteral">&quot;%d&quot;</span>, bots);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordtype">int</span> sbots_size = strlen(sbots); </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 53-sbots_size; j &gt; 0; j--){</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        printf(<span class="stringliteral">&quot;%s║\n&quot;</span>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 12; i++)</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordtype">int</span> sec = <a class="code" href="structtime.html">time</a> / 1000;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordtype">float</span> msec = <a class="code" href="structtime.html">time</a> % 100;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="comment">//printf(&quot;                     %s║%s   Loading Time: %s%d.%d&quot;, BOLD_CYAN, BOLD_GREEN, RESET, time/1000, time%100);</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        printf(<span class="stringliteral">&quot;                     %s║%s   Query Time: %s%d.%d&quot;</span>,<a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>, <a class="code" href="colors_8h.html#a08800e737f550f758120b8e717789a56">BOLD_GREEN</a>, <a class="code" href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a>, sec, msec);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordtype">char</span> ssec[<a class="code" href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a>];</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        sprintf(ssec, <span class="stringliteral">&quot;%d.%d&quot;</span>, sec, msec);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordtype">int</span> ssec_size = strlen(ssec); </div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 76-ssec_size; j &gt; 0; j--){</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            printf(<span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        printf(<span class="stringliteral">&quot;%s║\n&quot;</span>, <a class="code" href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a>);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        printf(<span class="stringliteral">&quot;                     ║                                                                                            ║\n&quot;</span>);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        printf(<span class="stringliteral">&quot;                     ╚════════════════════════════════════════════════════════════════════════════════════════════╝&quot;</span>);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <a class="code" href="view_8h.html#a8225ccda311db1771f592075c3420987">printQueriesBottom</a>();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        fprintf(outstream, <span class="stringliteral">&quot;%d\n&quot;</span>, bots);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="astructuser_html"><div class="ttname"><a href="structuser.html">user</a></div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00013">users.c:13</a></div></div>
+<div class="ttc" id="acolors_8h_html_a08800e737f550f758120b8e717789a56"><div class="ttname"><a href="colors_8h.html#a08800e737f550f758120b8e717789a56">BOLD_GREEN</a></div><div class="ttdeci">#define BOLD_GREEN</div><div class="ttdef"><b>Definition:</b> <a href="colors_8h_source.html#l00052">colors.h:52</a></div></div>
+<div class="ttc" id="acontroller_8h_html_a9dbc81af1474dad93a18cbf1df355a99"><div class="ttname"><a href="controller_8h.html#a9dbc81af1474dad93a18cbf1df355a99">buffer_size</a></div><div class="ttdeci">#define buffer_size</div><div class="ttdef"><b>Definition:</b> <a href="controller_8h_source.html#l00027">controller.h:27</a></div></div>
+<div class="ttc" id="aview_8h_html_a8225ccda311db1771f592075c3420987"><div class="ttname"><a href="view_8h.html#a8225ccda311db1771f592075c3420987">printQueriesBottom</a></div><div class="ttdeci">int printQueriesBottom()</div><div class="ttdoc">Função que imprime o frame de baixo das queries.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00604">view.c:604</a></div></div>
+<div class="ttc" id="astructtime_html"><div class="ttname"><a href="structtime.html">time</a></div><div class="ttdef"><b>Definition:</b> <a href="Data_8c_source.html#l00029">Data.c:29</a></div></div>
+<div class="ttc" id="acolors_8h_html_a6e50883b969289b5a77550ddb8385dd1"><div class="ttname"><a href="colors_8h.html#a6e50883b969289b5a77550ddb8385dd1">BOLD_BRIGHT_MAGENTA</a></div><div class="ttdeci">#define BOLD_BRIGHT_MAGENTA</div><div class="ttdef"><b>Definition:</b> <a href="colors_8h_source.html#l00136">colors.h:136</a></div></div>
+<div class="ttc" id="acolors_8h_html_a62f05b1e00666a7e59003a86c1ca68d6"><div class="ttname"><a href="colors_8h.html#a62f05b1e00666a7e59003a86c1ca68d6">BOLD_CYAN</a></div><div class="ttdeci">#define BOLD_CYAN</div><div class="ttdef"><b>Definition:</b> <a href="colors_8h_source.html#l00056">colors.h:56</a></div></div>
+<div class="ttc" id="aview_8h_html_a1b9c8cfc6c66e22361644745e11dfada"><div class="ttname"><a href="view_8h.html#a1b9c8cfc6c66e22361644745e11dfada">paginacaoTop</a></div><div class="ttdeci">void paginacaoTop()</div><div class="ttdoc">Função que imprime o frame de cima da paginação.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00692">view.c:692</a></div></div>
+<div class="ttc" id="aview_8h_html_a0a2b1350b0f2771f21ac6451f7b4dde5"><div class="ttname"><a href="view_8h.html#a0a2b1350b0f2771f21ac6451f7b4dde5">printQueriesTop</a></div><div class="ttdeci">void printQueriesTop()</div><div class="ttdoc">Função que imprime o frame de cima das queries.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00259">view.c:259</a></div></div>
+<div class="ttc" id="acolors_8h_html_ab702106cf3b3e96750b6845ded4e0299"><div class="ttname"><a href="colors_8h.html#ab702106cf3b3e96750b6845ded4e0299">RESET</a></div><div class="ttdeci">#define RESET</div><div class="ttdef"><b>Definition:</b> <a href="colors_8h_source.html#l00023">colors.h:23</a></div></div>
+<div class="ttc" id="atable_8h_html_a9867ac46186842f16ebbfa83ffb24c59"><div class="ttname"><a href="table_8h.html#a9867ac46186842f16ebbfa83ffb24c59">get_ftable_data</a></div><div class="ttdeci">char * get_ftable_data(FTABLE ftable)</div><div class="ttdoc">Função que retorna a informação do nó da ftable.</div><div class="ttdef"><b>Definition:</b> <a href="table_8c_source.html#l00054">table.c:54</a></div></div>
+<div class="ttc" id="aview_8h_html_a1664c620e23921460edd897d0ea9defa"><div class="ttname"><a href="view_8h.html#a1664c620e23921460edd897d0ea9defa">printPaginacaoBottom</a></div><div class="ttdeci">void printPaginacaoBottom()</div><div class="ttdoc">Função que imprime o frame de baixo da paginação.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00674">view.c:674</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_d03cbfd2f64df20252359f4b8046046f.html">view</a></li><li class="navelem"><a class="el" href="queries__output_8h.html">queries_output.h</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>

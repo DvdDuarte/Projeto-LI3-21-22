@@ -1,0 +1,1461 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Referência ao ficheiro include/model/Catalogo_User/users.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 3
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('users_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Definições de tipos</a> &#124;
+<a href="#enum-members">Enumerações</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência ao ficheiro users.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Ficheiro que contém as funções que para trabalhar com os users.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="Funcoes__Aux_8h_source.html">../Funcoes_Aux.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Data_8h_source.html">../Data.h</a>&quot;</code><br />
+<code>#include &quot;glib-2.0/glib.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Diagrama de dependências de inclusão para users.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="users_8h__incl.png" border="0" usemap="#include_2model_2Catalogo__User_2users_8h" alt=""/></div>
+<map name="include_2model_2Catalogo__User_2users_8h" id="include_2model_2Catalogo__User_2users_8h">
+<area shape="rect" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="219,5,395,47"/>
+<area shape="rect" href="Funcoes__Aux_8h.html" title="Ficheiro que contém as funções auxiliares." alt="" coords="113,95,244,121"/>
+<area shape="rect" href="Data_8h.html" title="Ficheiro que contém as funções que para trabalhar com o tipo de LTempo." alt="" coords="268,95,345,121"/>
+<area shape="rect" title=" " alt="" coords="370,95,481,121"/>
+<area shape="rect" title=" " alt="" coords="5,169,72,196"/>
+<area shape="rect" title=" " alt="" coords="97,169,167,196"/>
+<area shape="rect" title=" " alt="" coords="191,169,262,196"/>
+<area shape="rect" title=" " alt="" coords="286,169,357,196"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro:</div>
+<div class="dyncontent">
+<div class="center"><img src="users_8h__dep__incl.png" border="0" usemap="#include_2model_2Catalogo__User_2users_8hdep" alt=""/></div>
+<map name="include_2model_2Catalogo__User_2users_8hdep" id="include_2model_2Catalogo__User_2users_8hdep">
+<area shape="rect" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="500,5,676,47"/>
+<area shape="rect" href="catalogo__users_8h.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de users." alt="" coords="596,95,772,136"/>
+<area shape="rect" href="queries__output_8h.html" title="Ficheiro que contém as funções para apresentar os resultados das queries." alt="" coords="415,95,571,136"/>
+<area shape="rect" href="file__work__validacoes_8h.html" title="Ficheiro que contém as funções que para validar os ficheiros obtidos no exercício 1." alt="" coords="109,95,323,136"/>
+<area shape="rect" href="users_8c.html" title="Ficheiro que contém as funções que para trabalhar com os users." alt="" coords="797,95,945,136"/>
+<area shape="rect" href="sgr_8h.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="580,199,753,225"/>
+<area shape="rect" href="catalogs__file__work_8h.html" title="Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos." alt="" coords="974,184,1122,240"/>
+<area shape="rect" href="catalogo__users_8c.html" title="Ficheiro que contém as funções que para trabalhar com o catalogo de users." alt="" coords="778,191,950,233"/>
+<area shape="rect" href="queries__estatisticas_8h.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="428,288,596,329"/>
+<area shape="rect" href="exercicios_8h.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="121,377,255,419"/>
+<area shape="rect" href="maintests_8c.html" title=" " alt="" coords="596,385,793,411"/>
+<area shape="rect" href="queries__parametrizaveis_8h.html" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="727,288,926,329"/>
+<area shape="rect" href="sgr_8c.html" title="Ficheiro que contém as funções que para trabalhar com o SGR." alt="" coords="951,295,1095,322"/>
+<area shape="rect" href="controller_8h.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="333,556,467,597"/>
+<area shape="rect" href="exercicios_8c.html" title="Ficheiro que contém as funções necessárias para os guiões 1,2 e 3." alt="" coords="335,474,521,501"/>
+<area shape="rect" href="queries__estatisticas_8c.html" title="Ficheiro que contém as funções que executam as queries estatísticas." alt="" coords="279,377,470,419"/>
+<area shape="rect" href="controller_8c.html" title="Ficheiro que contém as funções que controlam o programa." alt="" coords="229,645,411,672"/>
+<area shape="rect" href="main_8c.html" title="Ficheiro que contém a função principal do sistema de gestão de repositórios." alt="" coords="435,645,525,672"/>
+<area shape="rect" href="interpretador_8h.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="175,467,310,508"/>
+<area shape="rect" href="interpretador_8c.html" title="Ficheiro que contém a função que faz o tratamento do input de comandos através de ficheiros." alt="" coords="634,563,841,590"/>
+<area shape="rect" href="queries__parametrizaveis_8c.html" title="Ficheiro que contém as funções que executam as queries parametrizáveis." alt="" coords="919,377,1110,419"/>
+<area shape="rect" href="catalogs__file__work_8c.html" title="Ficheiro que contém as funções que para trabalhar com os ficheiros para preencher os catalogos." alt="" coords="1119,288,1278,329"/>
+<area shape="rect" href="queries__output_8c.html" title=" " alt="" coords="286,199,474,225"/>
+<area shape="rect" href="file__work__validacoes_8c.html" title="Ficheiro que contém as funções que para validar os ficheiros obtidos no exercício 1." alt="" coords="5,191,179,233"/>
+</map>
+</div>
+</div>
+<p><a href="users_8h_source.html">Ir para o código fonte deste ficheiro.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a158dfc1e355bceb78a66acba30c5a9a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a158dfc1e355bceb78a66acba30c5a9a0">Bot</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a158dfc1e355bceb78a66acba30c5a9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aff8850efa686a0be5c9762431deac8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a9aff8850efa686a0be5c9762431deac8">Organization</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a9aff8850efa686a0be5c9762431deac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aa2b63537d2151fdc9b0d60d508add1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a1aa2b63537d2151fdc9b0d60d508add1">User</a>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a1aa2b63537d2151fdc9b0d60d508add1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b0e4e0c5350f60e2e29b27160d5bcd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#ac9b0e4e0c5350f60e2e29b27160d5bcd">Invalid</a>&#160;&#160;&#160;-1</td></tr>
+<tr class="separator:ac9b0e4e0c5350f60e2e29b27160d5bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Definições de tipos</h2></td></tr>
+<tr class="memitem:a660d1948264b66170b592b90c24b9eab"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a></td></tr>
+<tr class="separator:a660d1948264b66170b592b90c24b9eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2797b20507a52128757836b89f3620"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structuser.html">user</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#aaa2797b20507a52128757836b89f3620">NUSER</a></td></tr>
+<tr class="separator:aaa2797b20507a52128757836b89f3620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4733e0dc81c5c18586fa7f8a6956259"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structuser.html">user</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a></td></tr>
+<tr class="separator:aa4733e0dc81c5c18586fa7f8a6956259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerações</h2></td></tr>
+<tr class="memitem:a7aead736a07eaf25623ad7bfa1f0ee2d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a> { <a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e">BOT</a> = 0, 
+<a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c">ORGANIZATION</a> = 1, 
+<a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b">USER</a> = 2, 
+<a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">INVALID</a> = -1
+ }</td></tr>
+<tr class="separator:a7aead736a07eaf25623ad7bfa1f0ee2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ab276539cdb6ff784338eac999a511122"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#ab276539cdb6ff784338eac999a511122">GAddUsers</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> <a class="el" href="structuser.html">user</a>, GHashTable *hash)</td></tr>
+<tr class="separator:ab276539cdb6ff784338eac999a511122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e95453a5096242b56b8de1deedd1714"><td class="memItemLeft" align="right" valign="top"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a5e95453a5096242b56b8de1deedd1714">GGetUser</a> (int key, GHashTable *hash)</td></tr>
+<tr class="separator:a5e95453a5096242b56b8de1deedd1714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad95faf49e3e2bb178e0ce84976fafaf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#ad95faf49e3e2bb178e0ce84976fafaf5">GUsers_free</a> (GHashTable *hash)</td></tr>
+<tr class="separator:ad95faf49e3e2bb178e0ce84976fafaf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4638d9dc46c42b617254497f185b6fd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#ad4638d9dc46c42b617254497f185b6fd">get_ID_User</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:ad4638d9dc46c42b617254497f185b6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a21dba381f20de0394c49cc6474447f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a6a21dba381f20de0394c49cc6474447f">set_ID_User</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, int id)</td></tr>
+<tr class="separator:a6a21dba381f20de0394c49cc6474447f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a8d35ad472eaed3d7eb4f7b3fdf813c"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a5a8d35ad472eaed3d7eb4f7b3fdf813c">get_Login</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:a5a8d35ad472eaed3d7eb4f7b3fdf813c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82f1de12f931eb2ad9ee524fc9bb9ea1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a82f1de12f931eb2ad9ee524fc9bb9ea1">set_Login</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, char *login)</td></tr>
+<tr class="separator:a82f1de12f931eb2ad9ee524fc9bb9ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38f06fcf7b9edfba3122e3c24ab450d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a38f06fcf7b9edfba3122e3c24ab450d9">get_Type</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:a38f06fcf7b9edfba3122e3c24ab450d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa043b5684ea7cee44dd19f693966993a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#aa043b5684ea7cee44dd19f693966993a">set_Type</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, <a class="el" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a> <a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a>)</td></tr>
+<tr class="separator:aa043b5684ea7cee44dd19f693966993a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61e56900cd60c2ddc5f62f25b71129fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Data_8h.html#ae4b61c235e63013ce3daba99bf9343cf">LTempo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a61e56900cd60c2ddc5f62f25b71129fc">get_Created_At_User</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:a61e56900cd60c2ddc5f62f25b71129fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e28b6ad64817a3d9fa6ce8c7cbfae4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a26e28b6ad64817a3d9fa6ce8c7cbfae4">set_Created_At_User</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, <a class="el" href="Data_8h.html#ae4b61c235e63013ce3daba99bf9343cf">LTempo</a> created_at)</td></tr>
+<tr class="separator:a26e28b6ad64817a3d9fa6ce8c7cbfae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ce5378a5af951d21c0f493b94acaa9a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a8ce5378a5af951d21c0f493b94acaa9a">get_Followers</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:a8ce5378a5af951d21c0f493b94acaa9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0513636f2c4c8b0856150297ec0831a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#ab0513636f2c4c8b0856150297ec0831a">set_Followers</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, int followers)</td></tr>
+<tr class="separator:ab0513636f2c4c8b0856150297ec0831a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2d462859453b6f93a097447850b0bcf"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#ab2d462859453b6f93a097447850b0bcf">get_Followers_List</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:ab2d462859453b6f93a097447850b0bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a0c35cbf493d8c94145d8a6e483afe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a2a0c35cbf493d8c94145d8a6e483afe3">set_Followers_List</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, const int *followers_list, int followers)</td></tr>
+<tr class="separator:a2a0c35cbf493d8c94145d8a6e483afe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9edff29498b93402aa92f675a7de271f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a9edff29498b93402aa92f675a7de271f">get_Following</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:a9edff29498b93402aa92f675a7de271f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedeb3a8d957b3683043b6410bb391ff8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#aedeb3a8d957b3683043b6410bb391ff8">set_Following</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, int following)</td></tr>
+<tr class="separator:aedeb3a8d957b3683043b6410bb391ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76586b98a069700ad74389123719d998"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a76586b98a069700ad74389123719d998">get_Following_List</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:a76586b98a069700ad74389123719d998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7e943d52812c6d5cd4584335c375bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a8e7e943d52812c6d5cd4584335c375bd">set_Following_List</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, const int *following_list, int following)</td></tr>
+<tr class="separator:a8e7e943d52812c6d5cd4584335c375bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a018f2f8f41932e00c1f26a68f7b22b9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a018f2f8f41932e00c1f26a68f7b22b9e">get_Public_Gits</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:a018f2f8f41932e00c1f26a68f7b22b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7ae2f8da5635389907dc366e01374a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a2a7ae2f8da5635389907dc366e01374a">set_Public_Gits</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, int public_gits)</td></tr>
+<tr class="separator:a2a7ae2f8da5635389907dc366e01374a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe49afa5ab9e322abb258a8da4cef23b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#abe49afa5ab9e322abb258a8da4cef23b">get_Public_Repos</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:abe49afa5ab9e322abb258a8da4cef23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a81c3051a6136f7581aab64a6e4c67d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a9a81c3051a6136f7581aab64a6e4c67d">set_Public_Repos</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u, int public_repos)</td></tr>
+<tr class="separator:a9a81c3051a6136f7581aab64a6e4c67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26367dc79d4e64e9cef013339e54ab72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a26367dc79d4e64e9cef013339e54ab72">free_User</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:a26367dc79d4e64e9cef013339e54ab72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48b2ea020e911861c98f811c6a9ecee3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a48b2ea020e911861c98f811c6a9ecee3">valid_User</a> (<a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> u)</td></tr>
+<tr class="separator:a48b2ea020e911861c98f811c6a9ecee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4291a4ef910f091d4582cc44069e8bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#a4291a4ef910f091d4582cc44069e8bcd">build_User</a> (char *line)</td></tr>
+<tr class="separator:a4291a4ef910f091d4582cc44069e8bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb45e9d1d9027b19d819121cbfbc8cf2"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="users_8h.html#adb45e9d1d9027b19d819121cbfbc8cf2">toString_Type</a> (<a class="el" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a> <a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a>)</td></tr>
+<tr class="separator:adb45e9d1d9027b19d819121cbfbc8cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Ficheiro que contém as funções que para trabalhar com os users. </p>
+<dl class="section author"><dt>Autor</dt><dd>grupo11 </dd></dl>
+<dl class="section version"><dt>Versão</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>Data</dt><dd>2022-02-07</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2022 </dd></dl>
+
+<p class="definition">Definido no ficheiro <a class="el" href="users_8h_source.html">users.h</a>.</p>
+</div><h2 class="groupheader">Documentação das macros</h2>
+<a id="a158dfc1e355bceb78a66acba30c5a9a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a158dfc1e355bceb78a66acba30c5a9a0">&#9670;&nbsp;</a></span>Bot</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Bot&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definido na linha <a class="el" href="users_8h_source.html#l00018">18</a> do ficheiro <a class="el" href="users_8h_source.html">users.h</a>.</p>
+
+</div>
+</div>
+<a id="ac9b0e4e0c5350f60e2e29b27160d5bcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b0e4e0c5350f60e2e29b27160d5bcd">&#9670;&nbsp;</a></span>Invalid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Invalid&#160;&#160;&#160;-1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definido na linha <a class="el" href="users_8h_source.html#l00021">21</a> do ficheiro <a class="el" href="users_8h_source.html">users.h</a>.</p>
+
+</div>
+</div>
+<a id="a9aff8850efa686a0be5c9762431deac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aff8850efa686a0be5c9762431deac8">&#9670;&nbsp;</a></span>Organization</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Organization&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definido na linha <a class="el" href="users_8h_source.html#l00019">19</a> do ficheiro <a class="el" href="users_8h_source.html">users.h</a>.</p>
+
+</div>
+</div>
+<a id="a1aa2b63537d2151fdc9b0d60d508add1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aa2b63537d2151fdc9b0d60d508add1">&#9670;&nbsp;</a></span>User</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define User&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definido na linha <a class="el" href="users_8h_source.html#l00020">20</a> do ficheiro <a class="el" href="users_8h_source.html">users.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos tipos</h2>
+<a id="aa4733e0dc81c5c18586fa7f8a6956259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4733e0dc81c5c18586fa7f8a6956259">&#9670;&nbsp;</a></span>LUSER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structuser.html">user</a> * <a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definido na linha <a class="el" href="users_8h_source.html#l00036">36</a> do ficheiro <a class="el" href="users_8h_source.html">users.h</a>.</p>
+
+</div>
+</div>
+<a id="aaa2797b20507a52128757836b89f3620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2797b20507a52128757836b89f3620">&#9670;&nbsp;</a></span>NUSER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structuser.html">user</a> <a class="el" href="users_8h.html#aaa2797b20507a52128757836b89f3620">NUSER</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tipo de dados a ser utilizado sempre que se queira criar um utilizador </p>
+
+<p class="definition">Definido na linha <a class="el" href="users_8h_source.html#l00036">36</a> do ficheiro <a class="el" href="users_8h_source.html">users.h</a>.</p>
+
+</div>
+</div>
+<a id="a660d1948264b66170b592b90c24b9eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a660d1948264b66170b592b90c24b9eab">&#9670;&nbsp;</a></span>TIPO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a> <a class="el" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tipo de dados referente ao tipo de utilizador </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos valores da enumeração</h2>
+<a id="a7aead736a07eaf25623ad7bfa1f0ee2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aead736a07eaf25623ad7bfa1f0ee2d">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tipo de dados referente ao tipo de utilizador </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumerações</th></tr><tr><td class="fieldname"><a id="a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e"></a>BOT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c"></a>ORGANIZATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b"></a>USER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2"></a>INVALID&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definido na linha <a class="el" href="users_8h_source.html#l00026">26</a> do ficheiro <a class="el" href="users_8h_source.html">users.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                 {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e">BOT</a> = 0,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c">ORGANIZATION</a> = 1,</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b">USER</a> = 2,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">INVALID</a> = -1</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}<a class="code" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a>;</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="a4291a4ef910f091d4582cc44069e8bcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4291a4ef910f091d4582cc44069e8bcd">&#9670;&nbsp;</a></span>build_User()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> build_User </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>line</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">line</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00233">233</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                            {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <a class="code" href="structuser.html">LUSER</a> u = malloc(<span class="keyword">sizeof</span>(<a class="code" href="structuser.html">NUSER</a>));</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160; </div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    u-&gt;<a class="code" href="structuser.html#a7c4bd95a9611df1bae140f2ce6648c5a">id</a> = <a class="code" href="Funcoes__Aux_8h.html#acbe7806a7957a0954edba7215bf94c81">digitorChar</a>(strsep(&amp;line, <span class="stringliteral">&quot;;\n&quot;</span>));</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    u-&gt;<a class="code" href="structuser.html#a5b4f587198610f9f019412f921e2a143">login</a> = strdup(strsep(&amp;line, <span class="stringliteral">&quot;;\n&quot;</span>));</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    u-&gt;<a class="code" href="structuser.html#a1c880ce2b64a85d39506c5f3add29ee1">type</a> = <a class="code" href="users_8c.html#a03308aab4f795010b7acdd0dc2ee84a1">build_Type</a>(strsep(&amp;line, <span class="stringliteral">&quot;;\n&quot;</span>));</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    u-&gt;<a class="code" href="structuser.html#a283c03a9e5a014e096a980da2d57a753">created_at</a> = <a class="code" href="Data_8h.html#a8945ecb725396b16659ca008ad0ae2d0">build_time</a>(strsep(&amp;line, <span class="stringliteral">&quot;;\n&quot;</span>));</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    u-&gt;<a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a> = <a class="code" href="Funcoes__Aux_8h.html#acbe7806a7957a0954edba7215bf94c81">digitorChar</a>(strsep(&amp;line, <span class="stringliteral">&quot;;\n&quot;</span>));</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordtype">int</span> valid = 1;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    u-&gt;<a class="code" href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">followers_list</a> = <a class="code" href="users_8c.html#a9575e87b39ddbf42dba9663d3096f67d">build_list</a>(strsep(&amp;line, <span class="stringliteral">&quot;;\n&quot;</span>), u-&gt;<a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a>, &amp;valid);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    u-&gt;<a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a> = <a class="code" href="Funcoes__Aux_8h.html#acbe7806a7957a0954edba7215bf94c81">digitorChar</a>(strsep(&amp;line, <span class="stringliteral">&quot;;\n&quot;</span>));</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    u-&gt;<a class="code" href="structuser.html#a47338fd60119a3e06442f32db799d419">following_list</a> = <a class="code" href="users_8c.html#a9575e87b39ddbf42dba9663d3096f67d">build_list</a>(strsep(&amp;line, <span class="stringliteral">&quot;;\n&quot;</span>), u-&gt;<a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a>, &amp;valid);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    u-&gt;<a class="code" href="structuser.html#a0cbdc3322b4d5969fa9f744fdf6fc767">public_gits</a> = <a class="code" href="Funcoes__Aux_8h.html#acbe7806a7957a0954edba7215bf94c81">digitorChar</a>(strsep(&amp;line, <span class="stringliteral">&quot;;\n&quot;</span>));</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    u-&gt;<a class="code" href="structuser.html#a38f2e34d76e85ceac3bf16fbbd3d26ca">public_repos</a> = <a class="code" href="Funcoes__Aux_8h.html#acbe7806a7957a0954edba7215bf94c81">digitorChar</a>(strsep(&amp;line, <span class="stringliteral">&quot;;\r\n&quot;</span>));</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="users_8c.html#a48b2ea020e911861c98f811c6a9ecee3">valid_User</a>(u) || !valid){</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <a class="code" href="users_8c.html#a26367dc79d4e64e9cef013339e54ab72">free_User</a>(u);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        u = NULL;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">return</span> u;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a26367dc79d4e64e9cef013339e54ab72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26367dc79d4e64e9cef013339e54ab72">&#9670;&nbsp;</a></span>free_User()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void free_User </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00149">149</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                       {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    free(u-&gt;<a class="code" href="structuser.html#a5b4f587198610f9f019412f921e2a143">login</a>);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    free(u-&gt;<a class="code" href="structuser.html#a283c03a9e5a014e096a980da2d57a753">created_at</a>);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    free(u-&gt;<a class="code" href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">followers_list</a>);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    free(u-&gt;<a class="code" href="structuser.html#a47338fd60119a3e06442f32db799d419">following_list</a>);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    free(u);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab276539cdb6ff784338eac999a511122"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab276539cdb6ff784338eac999a511122">&#9670;&nbsp;</a></span>GAddUsers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GAddUsers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GHashTable *&#160;</td>
+          <td class="paramname"><em>hash</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td></td></tr>
+    <tr><td class="paramname">hash</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00027">27</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                                              {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="structuser.html">user</a> == NULL) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    g_hash_table_insert (hash, &amp;<a class="code" href="structuser.html">user</a>-&gt;<a class="code" href="structuser.html#a7c4bd95a9611df1bae140f2ce6648c5a">id</a>, <a class="code" href="structuser.html">user</a>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a61e56900cd60c2ddc5f62f25b71129fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61e56900cd60c2ddc5f62f25b71129fc">&#9670;&nbsp;</a></span>get_Created_At_User()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Data_8h.html#ae4b61c235e63013ce3daba99bf9343cf">LTempo</a> get_Created_At_User </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00064">64</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                   {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="Data_8h.html#a8786ead6335c5e34a4193601fd2af602">clone_Tempo</a>(u-&gt;<a class="code" href="structuser.html#a283c03a9e5a014e096a980da2d57a753">created_at</a>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8ce5378a5af951d21c0f493b94acaa9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ce5378a5af951d21c0f493b94acaa9a">&#9670;&nbsp;</a></span>get_Followers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_Followers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00073">73</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                          {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">return</span> u-&gt;<a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab2d462859453b6f93a097447850b0bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d462859453b6f93a097447850b0bcf">&#9670;&nbsp;</a></span>get_Followers_List()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int* get_Followers_List </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00081">81</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span>(u-&gt;<a class="code" href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">followers_list</a> == NULL)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">int</span>* fl = malloc(<span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * u-&gt;<a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a>);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; u-&gt;<a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a>; i++)</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        fl[i] = u-&gt;<a class="code" href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">followers_list</a>[i];</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> fl;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9edff29498b93402aa92f675a7de271f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9edff29498b93402aa92f675a7de271f">&#9670;&nbsp;</a></span>get_Following()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_Following </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00103">103</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                          {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">return</span> u-&gt;<a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a76586b98a069700ad74389123719d998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76586b98a069700ad74389123719d998">&#9670;&nbsp;</a></span>get_Following_List()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int* get_Following_List </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00111">111</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">if</span>(u-&gt;<a class="code" href="structuser.html#a47338fd60119a3e06442f32db799d419">following_list</a> == NULL)</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">int</span>* fl = malloc(<span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * u-&gt;<a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a>);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; u-&gt;<a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a>; i++)</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        fl[i] = u-&gt;<a class="code" href="structuser.html#a47338fd60119a3e06442f32db799d419">following_list</a>[i];</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">return</span> fl;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad4638d9dc46c42b617254497f185b6fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4638d9dc46c42b617254497f185b6fd">&#9670;&nbsp;</a></span>get_ID_User()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_ID_User </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00039">39</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                        {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> u-&gt;<a class="code" href="structuser.html#a7c4bd95a9611df1bae140f2ce6648c5a">id</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5a8d35ad472eaed3d7eb4f7b3fdf813c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8d35ad472eaed3d7eb4f7b3fdf813c">&#9670;&nbsp;</a></span>get_Login()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* get_Login </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00047">47</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                        {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> strdup(u-&gt;<a class="code" href="structuser.html#a5b4f587198610f9f019412f921e2a143">login</a>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a018f2f8f41932e00c1f26a68f7b22b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a018f2f8f41932e00c1f26a68f7b22b9e">&#9670;&nbsp;</a></span>get_Public_Gits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_Public_Gits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00133">133</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                            {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">return</span> u-&gt;<a class="code" href="structuser.html#a0cbdc3322b4d5969fa9f744fdf6fc767">public_gits</a>;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abe49afa5ab9e322abb258a8da4cef23b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe49afa5ab9e322abb258a8da4cef23b">&#9670;&nbsp;</a></span>get_Public_Repos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_Public_Repos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00141">141</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                             {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordflow">return</span> u-&gt;<a class="code" href="structuser.html#a38f2e34d76e85ceac3bf16fbbd3d26ca">public_repos</a>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a38f06fcf7b9edfba3122e3c24ab450d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38f06fcf7b9edfba3122e3c24ab450d9">&#9670;&nbsp;</a></span>get_Type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a> get_Type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00056">56</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                      {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">return</span> u-&gt;<a class="code" href="structuser.html#a1c880ce2b64a85d39506c5f3add29ee1">type</a>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5e95453a5096242b56b8de1deedd1714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e95453a5096242b56b8de1deedd1714">&#9670;&nbsp;</a></span>GGetUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a> GGetUser </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GHashTable *&#160;</td>
+          <td class="paramname"><em>hash</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td></td></tr>
+    <tr><td class="paramname">hash</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00032">32</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                          {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="structuser.html">LUSER</a> aux = (<a class="code" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>)g_hash_table_lookup(hash, &amp;key);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span> (aux == NULL) <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">return</span> aux;<span class="comment">//funcao que clona o user</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad95faf49e3e2bb178e0ce84976fafaf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad95faf49e3e2bb178e0ce84976fafaf5">&#9670;&nbsp;</a></span>GUsers_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GUsers_free </td>
+          <td>(</td>
+          <td class="paramtype">GHashTable *&#160;</td>
+          <td class="paramname"><em>hash</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hash</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a26e28b6ad64817a3d9fa6ce8c7cbfae4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e28b6ad64817a3d9fa6ce8c7cbfae4">&#9670;&nbsp;</a></span>set_Created_At_User()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_Created_At_User </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="Data_8h.html#ae4b61c235e63013ce3daba99bf9343cf">LTempo</a>&#160;</td>
+          <td class="paramname"><em>created_at</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">created_at</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00068">68</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                                    {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    free(u-&gt;<a class="code" href="structuser.html#a283c03a9e5a014e096a980da2d57a753">created_at</a>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    u-&gt;<a class="code" href="structuser.html#a283c03a9e5a014e096a980da2d57a753">created_at</a> = <a class="code" href="Data_8h.html#a8786ead6335c5e34a4193601fd2af602">clone_Tempo</a>(created_at);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab0513636f2c4c8b0856150297ec0831a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0513636f2c4c8b0856150297ec0831a">&#9670;&nbsp;</a></span>set_Followers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_Followers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>followers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">followers</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00077">77</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                          {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    u-&gt;<a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a> = followers;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2a0c35cbf493d8c94145d8a6e483afe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a0c35cbf493d8c94145d8a6e483afe3">&#9670;&nbsp;</a></span>set_Followers_List()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_Followers_List </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int *&#160;</td>
+          <td class="paramname"><em>followers_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>followers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">followers_list</td><td></td></tr>
+    <tr><td class="paramname">followers</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00093">93</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    free(u-&gt;<a class="code" href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">followers_list</a>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="users_8c.html#ab0513636f2c4c8b0856150297ec0831a">set_Followers</a>(u, followers);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    u-&gt;<a class="code" href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">followers_list</a> = malloc(<span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * followers);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; followers; i++)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        u-&gt;<a class="code" href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">followers_list</a>[i] = followers_list[i];</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aedeb3a8d957b3683043b6410bb391ff8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedeb3a8d957b3683043b6410bb391ff8">&#9670;&nbsp;</a></span>set_Following()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_Following </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>following</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">following</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00107">107</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                                          {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    u-&gt;<a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a> = following;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8e7e943d52812c6d5cd4584335c375bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e7e943d52812c6d5cd4584335c375bd">&#9670;&nbsp;</a></span>set_Following_List()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_Following_List </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int *&#160;</td>
+          <td class="paramname"><em>following_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>following</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">following_list</td><td></td></tr>
+    <tr><td class="paramname">following</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00123">123</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    free(u-&gt;<a class="code" href="structuser.html#a47338fd60119a3e06442f32db799d419">following_list</a>);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="users_8c.html#aedeb3a8d957b3683043b6410bb391ff8">set_Following</a>(u, following);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    u-&gt;<a class="code" href="structuser.html#a47338fd60119a3e06442f32db799d419">following_list</a> = malloc(<span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * following);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; following; i++)</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        u-&gt;<a class="code" href="structuser.html#a47338fd60119a3e06442f32db799d419">following_list</a>[i] = following_list[i];</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6a21dba381f20de0394c49cc6474447f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a21dba381f20de0394c49cc6474447f">&#9670;&nbsp;</a></span>set_ID_User()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_ID_User </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00043">43</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                 {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    u-&gt;<a class="code" href="structuser.html#a7c4bd95a9611df1bae140f2ce6648c5a">id</a> = id;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a82f1de12f931eb2ad9ee524fc9bb9ea1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82f1de12f931eb2ad9ee524fc9bb9ea1">&#9670;&nbsp;</a></span>set_Login()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_Login </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>login</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">login</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00051">51</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                    {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    free(u-&gt;<a class="code" href="structuser.html#a5b4f587198610f9f019412f921e2a143">login</a>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    u-&gt;<a class="code" href="structuser.html#a5b4f587198610f9f019412f921e2a143">login</a> = strdup(login);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2a7ae2f8da5635389907dc366e01374a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a7ae2f8da5635389907dc366e01374a">&#9670;&nbsp;</a></span>set_Public_Gits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_Public_Gits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>public_gits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">public_gits</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00137">137</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                              {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    u-&gt;<a class="code" href="structuser.html#a0cbdc3322b4d5969fa9f744fdf6fc767">public_gits</a> = public_gits;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9a81c3051a6136f7581aab64a6e4c67d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a81c3051a6136f7581aab64a6e4c67d">&#9670;&nbsp;</a></span>set_Public_Repos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_Public_Repos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>public_repos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">public_repos</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00145">145</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    u-&gt;<a class="code" href="structuser.html#a38f2e34d76e85ceac3bf16fbbd3d26ca">public_repos</a> = public_repos;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa043b5684ea7cee44dd19f693966993a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa043b5684ea7cee44dd19f693966993a">&#9670;&nbsp;</a></span>set_Type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_Type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a>&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+    <tr><td class="paramname">type</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00060">60</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                 {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    u-&gt;<a class="code" href="structuser.html#a1c880ce2b64a85d39506c5f3add29ee1">type</a> = <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adb45e9d1d9027b19d819121cbfbc8cf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb45e9d1d9027b19d819121cbfbc8cf2">&#9670;&nbsp;</a></span>toString_Type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* toString_Type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00257">257</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                              {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a> == <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e">BOT</a>)</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordflow">return</span> strdup(<span class="stringliteral">&quot;Bot&quot;</span>);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a> == <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c">ORGANIZATION</a>)</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">return</span> strdup(<span class="stringliteral">&quot;Organization&quot;</span>);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a> == <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b">USER</a>)</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordflow">return</span> strdup(<span class="stringliteral">&quot;User&quot;</span>);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160; </div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a48b2ea020e911861c98f811c6a9ecee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48b2ea020e911861c98f811c6a9ecee3">&#9670;&nbsp;</a></span>valid_User()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int valid_User </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a>&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+
+<p class="definition">Definido na linha <a class="el" href="users_8c_source.html#l00171">171</a> do ficheiro <a class="el" href="users_8c_source.html">users.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                       {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordtype">int</span> valid = 1;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160; </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">if</span>(u-&gt;<a class="code" href="structuser.html#a7c4bd95a9611df1bae140f2ce6648c5a">id</a> &lt; 0 || u-&gt;<a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a> &lt; 0 || u-&gt;<a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a> &lt; 0 || u-&gt;<a class="code" href="structuser.html#a0cbdc3322b4d5969fa9f744fdf6fc767">public_gits</a> &lt; 0 || u-&gt;<a class="code" href="structuser.html#a38f2e34d76e85ceac3bf16fbbd3d26ca">public_repos</a> &lt; 0)</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        valid = 0;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(strcmp(u-&gt;<a class="code" href="structuser.html#a5b4f587198610f9f019412f921e2a143">login</a>, <span class="stringliteral">&quot;&quot;</span>) == 0)</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        valid = 0;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(u-&gt;<a class="code" href="structuser.html#a1c880ce2b64a85d39506c5f3add29ee1">type</a> == <a class="code" href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">INVALID</a>)</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        valid = 0;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!<a class="code" href="users_8c.html#aadcc9233ce77963f013285ddd900b2e2">valid_lists</a>(u-&gt;<a class="code" href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">followers_list</a>, u-&gt;<a class="code" href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">followers</a>) || !<a class="code" href="users_8c.html#aadcc9233ce77963f013285ddd900b2e2">valid_lists</a>(u-&gt;<a class="code" href="structuser.html#a47338fd60119a3e06442f32db799d419">following_list</a>, u-&gt;<a class="code" href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">following</a>))</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        valid = 0;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="users_8c.html#a61e56900cd60c2ddc5f62f25b71129fc">get_Created_At_User</a>(u) == NULL )</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        valid = 0;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">return</span> valid;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="astructuser_html_a0cbdc3322b4d5969fa9f744fdf6fc767"><div class="ttname"><a href="structuser.html#a0cbdc3322b4d5969fa9f744fdf6fc767">user::public_gits</a></div><div class="ttdeci">int public_gits</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00022">users.c:22</a></div></div>
+<div class="ttc" id="astructuser_html_a7c4bd95a9611df1bae140f2ce6648c5a"><div class="ttname"><a href="structuser.html#a7c4bd95a9611df1bae140f2ce6648c5a">user::id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00014">users.c:14</a></div></div>
+<div class="ttc" id="ausers_8c_html_a26367dc79d4e64e9cef013339e54ab72"><div class="ttname"><a href="users_8c.html#a26367dc79d4e64e9cef013339e54ab72">free_User</a></div><div class="ttdeci">void free_User(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00149">users.c:149</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2da8701d7066e8b0fb9f21e9d933739062e">BOT</a></div><div class="ttdeci">@ BOT</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00027">users.h:27</a></div></div>
+<div class="ttc" id="astructuser_html_a0d68b6e853ee507d3a2954c4cc3465e9"><div class="ttname"><a href="structuser.html#a0d68b6e853ee507d3a2954c4cc3465e9">user::following</a></div><div class="ttdeci">int following</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00020">users.c:20</a></div></div>
+<div class="ttc" id="astructuser_html"><div class="ttname"><a href="structuser.html">user</a></div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00013">users.c:13</a></div></div>
+<div class="ttc" id="astructuser_html_ad7fb9caacfe9f2ff9fe4256b238bd63a"><div class="ttname"><a href="structuser.html#ad7fb9caacfe9f2ff9fe4256b238bd63a">user::followers_list</a></div><div class="ttdeci">int * followers_list</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00019">users.c:19</a></div></div>
+<div class="ttc" id="astructuser_html_a283c03a9e5a014e096a980da2d57a753"><div class="ttname"><a href="structuser.html#a283c03a9e5a014e096a980da2d57a753">user::created_at</a></div><div class="ttdeci">LTempo created_at</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00017">users.c:17</a></div></div>
+<div class="ttc" id="astructuser_html_a5b4f587198610f9f019412f921e2a143"><div class="ttname"><a href="structuser.html#a5b4f587198610f9f019412f921e2a143">user::login</a></div><div class="ttdeci">char * login</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00015">users.c:15</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2daef2863a469df3ea6871d640e3669a2f2">INVALID</a></div><div class="ttdeci">@ INVALID</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00030">users.h:30</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2d"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2d">type</a></div><div class="ttdeci">type</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00026">users.h:26</a></div></div>
+<div class="ttc" id="ausers_8c_html_a48b2ea020e911861c98f811c6a9ecee3"><div class="ttname"><a href="users_8c.html#a48b2ea020e911861c98f811c6a9ecee3">valid_User</a></div><div class="ttdeci">int valid_User(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00171">users.c:171</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dac115bf60908ed0c085294dc540d1be8c">ORGANIZATION</a></div><div class="ttdeci">@ ORGANIZATION</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00028">users.h:28</a></div></div>
+<div class="ttc" id="astructuser_html_a38f2e34d76e85ceac3bf16fbbd3d26ca"><div class="ttname"><a href="structuser.html#a38f2e34d76e85ceac3bf16fbbd3d26ca">user::public_repos</a></div><div class="ttdeci">int public_repos</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00023">users.c:23</a></div></div>
+<div class="ttc" id="astructuser_html_a47338fd60119a3e06442f32db799d419"><div class="ttname"><a href="structuser.html#a47338fd60119a3e06442f32db799d419">user::following_list</a></div><div class="ttdeci">int * following_list</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00021">users.c:21</a></div></div>
+<div class="ttc" id="ausers_8h_html_aa4733e0dc81c5c18586fa7f8a6956259"><div class="ttname"><a href="users_8h.html#aa4733e0dc81c5c18586fa7f8a6956259">LUSER</a></div><div class="ttdeci">struct user * LUSER</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00036">users.h:36</a></div></div>
+<div class="ttc" id="aFuncoes__Aux_8h_html_acbe7806a7957a0954edba7215bf94c81"><div class="ttname"><a href="Funcoes__Aux_8h.html#acbe7806a7957a0954edba7215bf94c81">digitorChar</a></div><div class="ttdeci">int digitorChar(char *line)</div><div class="ttdef"><b>Definition:</b> <a href="Funcoes__Aux_8c_source.html#l00013">Funcoes_Aux.c:13</a></div></div>
+<div class="ttc" id="ausers_8c_html_aadcc9233ce77963f013285ddd900b2e2"><div class="ttname"><a href="users_8c.html#aadcc9233ce77963f013285ddd900b2e2">valid_lists</a></div><div class="ttdeci">int valid_lists(const int *list, int size)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00160">users.c:160</a></div></div>
+<div class="ttc" id="ausers_8c_html_ab0513636f2c4c8b0856150297ec0831a"><div class="ttname"><a href="users_8c.html#ab0513636f2c4c8b0856150297ec0831a">set_Followers</a></div><div class="ttdeci">void set_Followers(LUSER u, int followers)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00077">users.c:77</a></div></div>
+<div class="ttc" id="astructuser_html_ac8f1af756820b9bdc04999db1c267dda"><div class="ttname"><a href="structuser.html#ac8f1af756820b9bdc04999db1c267dda">user::followers</a></div><div class="ttdeci">int followers</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00018">users.c:18</a></div></div>
+<div class="ttc" id="ausers_8c_html_aedeb3a8d957b3683043b6410bb391ff8"><div class="ttname"><a href="users_8c.html#aedeb3a8d957b3683043b6410bb391ff8">set_Following</a></div><div class="ttdeci">void set_Following(LUSER u, int following)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00107">users.c:107</a></div></div>
+<div class="ttc" id="aData_8h_html_a8945ecb725396b16659ca008ad0ae2d0"><div class="ttname"><a href="Data_8h.html#a8945ecb725396b16659ca008ad0ae2d0">build_time</a></div><div class="ttdeci">LTempo build_time(char *line)</div><div class="ttdef"><b>Definition:</b> <a href="Data_8c_source.html#l00160">Data.c:160</a></div></div>
+<div class="ttc" id="astructuser_html_a1c880ce2b64a85d39506c5f3add29ee1"><div class="ttname"><a href="structuser.html#a1c880ce2b64a85d39506c5f3add29ee1">user::type</a></div><div class="ttdeci">TIPO type</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00016">users.c:16</a></div></div>
+<div class="ttc" id="ausers_8h_html_a660d1948264b66170b592b90c24b9eab"><div class="ttname"><a href="users_8h.html#a660d1948264b66170b592b90c24b9eab">TIPO</a></div><div class="ttdeci">enum type TIPO</div></div>
+<div class="ttc" id="ausers_8c_html_a9575e87b39ddbf42dba9663d3096f67d"><div class="ttname"><a href="users_8c.html#a9575e87b39ddbf42dba9663d3096f67d">build_list</a></div><div class="ttdeci">int * build_list(char *line, int size, int *valid)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00202">users.c:202</a></div></div>
+<div class="ttc" id="ausers_8h_html_a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b"><div class="ttname"><a href="users_8h.html#a7aead736a07eaf25623ad7bfa1f0ee2dae2d30a195cee6b2961cc2c23ea4b520b">USER</a></div><div class="ttdeci">@ USER</div><div class="ttdef"><b>Definition:</b> <a href="users_8h_source.html#l00029">users.h:29</a></div></div>
+<div class="ttc" id="ausers_8c_html_a03308aab4f795010b7acdd0dc2ee84a1"><div class="ttname"><a href="users_8c.html#a03308aab4f795010b7acdd0dc2ee84a1">build_Type</a></div><div class="ttdeci">TIPO build_Type(char *line)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00190">users.c:190</a></div></div>
+<div class="ttc" id="aData_8h_html_a8786ead6335c5e34a4193601fd2af602"><div class="ttname"><a href="Data_8h.html#a8786ead6335c5e34a4193601fd2af602">clone_Tempo</a></div><div class="ttdeci">LTempo clone_Tempo(LTempo t)</div><div class="ttdef"><b>Definition:</b> <a href="Data_8c_source.html#l00201">Data.c:201</a></div></div>
+<div class="ttc" id="ausers_8c_html_a61e56900cd60c2ddc5f62f25b71129fc"><div class="ttname"><a href="users_8c.html#a61e56900cd60c2ddc5f62f25b71129fc">get_Created_At_User</a></div><div class="ttdeci">LTempo get_Created_At_User(LUSER u)</div><div class="ttdef"><b>Definition:</b> <a href="users_8c_source.html#l00064">users.c:64</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_5c067e43b62dc1a915e487a737196819.html">model</a></li><li class="navelem"><a class="el" href="dir_7ad55b8c460d6796cf8829320a6708bf.html">Catalogo_User</a></li><li class="navelem"><a class="el" href="users_8h.html">users.h</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>

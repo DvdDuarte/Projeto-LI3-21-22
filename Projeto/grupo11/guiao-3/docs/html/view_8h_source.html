@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de include/view/view.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 3
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('view_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">view.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="view_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef _VIEW_H_</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define _VIEW_H_</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="colors_8h.html">colors.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="view_8h.html#a9dbc81af1474dad93a18cbf1df355a99">   21</a></span>&#160;<span class="preprocessor">#define buffer_size 1000000</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a14ce2fdc85c7111758e4492aa19db72c">printFrameTop</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a3e8026ba321e89dc638e7ff4cbf86b8c">printFrameBottom</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a997f6588c013191a837d2d3f34ec0b27">printLoadingUsers</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a94efa1b5653125a3206019b87c8a88e2">printLoadingCommits</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#ae6f832d3e50153ca00da1740d72b5143">printLoadingRepos</a>();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a15a14d134fce316017b505c8c466690d">printBuildingApp</a>();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#ad3b50b3b6fdfdc4aaebdb02e2089c022">printBuildingAppTime</a>(<span class="keywordtype">int</span> <a class="code" href="structtime.html">time</a>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#ad826b40dcaf69f064a8ab79939811858">printDefaultScreen</a>();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a0a2b1350b0f2771f21ac6451f7b4dde5">printQueriesTop</a>();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#af8bbb38ea958b48ee0c9b80c87fc6547">printQueriesScreen</a>();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#adfff2052c786f07bbcc3a849e26d1872">printQueriesScreen1</a>();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a227637da406e04e5116429edd3a3bbf9">printQueriesScreen2</a>();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a34d1833dc57209f133174b647c42398e">printQueriesScreen3</a>();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#aa4b81e00c4347e8804e53417a8feeff8">printQueriesScreen4</a>();</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a78f9b63b07a23263c1a1bf60769efb4a">printQueriesScreen5</a>();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#ae2a1df36af4047dac97410f99ca420ae">printQueriesScreen6</a>();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#af4c7c8ee4b7ab181233475c1cb0650be">printQueriesScreen7</a>();</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a25b5ebeda0f3df4272465bafa29e1bb7">printQueriesScreen8</a>();</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a5879615ec328a41259f1224618d227de">printQueriesScreen9</a>();</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#ad8c5544359f3b538337d2e06b15acbc1">printQueriesScreen10</a>();</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="keywordtype">int</span> <a class="code" href="view_8h.html#a8225ccda311db1771f592075c3420987">printQueriesBottom</a>();</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#af2ad0ee0c4735c82e38e0b3ddc814f1d">printQueries</a>(<span class="keywordtype">int</span> q);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#ab69b0f35b3fe3bfc59fd77cf11a29665">printLoadingUI</a>();</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a1664c620e23921460edd897d0ea9defa">printPaginacaoBottom</a>();</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="keywordtype">void</span> <a class="code" href="view_8h.html#a1b9c8cfc6c66e22361644745e11dfada">paginacaoTop</a>(); </div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160; </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor">#endif //_VIEW_H_</span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="aview_8h_html_ae2a1df36af4047dac97410f99ca420ae"><div class="ttname"><a href="view_8h.html#ae2a1df36af4047dac97410f99ca420ae">printQueriesScreen6</a></div><div class="ttdeci">void printQueriesScreen6()</div><div class="ttdoc">Função que imprime o menu das queries com a query 6 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00459">view.c:459</a></div></div>
+<div class="ttc" id="aview_8h_html_af2ad0ee0c4735c82e38e0b3ddc814f1d"><div class="ttname"><a href="view_8h.html#af2ad0ee0c4735c82e38e0b3ddc814f1d">printQueries</a></div><div class="ttdeci">void printQueries(int q)</div><div class="ttdoc">Função que imprime a query selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00623">view.c:623</a></div></div>
+<div class="ttc" id="aview_8h_html_a8225ccda311db1771f592075c3420987"><div class="ttname"><a href="view_8h.html#a8225ccda311db1771f592075c3420987">printQueriesBottom</a></div><div class="ttdeci">int printQueriesBottom()</div><div class="ttdoc">Função que imprime o frame de baixo das queries.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00604">view.c:604</a></div></div>
+<div class="ttc" id="astructtime_html"><div class="ttname"><a href="structtime.html">time</a></div><div class="ttdef"><b>Definition:</b> <a href="Data_8c_source.html#l00029">Data.c:29</a></div></div>
+<div class="ttc" id="aview_8h_html_aa4b81e00c4347e8804e53417a8feeff8"><div class="ttname"><a href="view_8h.html#aa4b81e00c4347e8804e53417a8feeff8">printQueriesScreen4</a></div><div class="ttdeci">void printQueriesScreen4()</div><div class="ttdoc">Função que imprime o menu das queries com a query 4 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00401">view.c:401</a></div></div>
+<div class="ttc" id="aview_8h_html_a997f6588c013191a837d2d3f34ec0b27"><div class="ttname"><a href="view_8h.html#a997f6588c013191a837d2d3f34ec0b27">printLoadingUsers</a></div><div class="ttdeci">void printLoadingUsers()</div><div class="ttdoc">Função que imprime o frame a dizer que os users estão a ser carregados.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00038">view.c:38</a></div></div>
+<div class="ttc" id="aview_8h_html_a34d1833dc57209f133174b647c42398e"><div class="ttname"><a href="view_8h.html#a34d1833dc57209f133174b647c42398e">printQueriesScreen3</a></div><div class="ttdeci">void printQueriesScreen3()</div><div class="ttdoc">Função que imprime o menu das queries com a query 3 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00372">view.c:372</a></div></div>
+<div class="ttc" id="aview_8h_html_a14ce2fdc85c7111758e4492aa19db72c"><div class="ttname"><a href="view_8h.html#a14ce2fdc85c7111758e4492aa19db72c">printFrameTop</a></div><div class="ttdeci">void printFrameTop()</div><div class="ttdoc">Função que imprime o frame de cima.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00013">view.c:13</a></div></div>
+<div class="ttc" id="aview_8h_html_a78f9b63b07a23263c1a1bf60769efb4a"><div class="ttname"><a href="view_8h.html#a78f9b63b07a23263c1a1bf60769efb4a">printQueriesScreen5</a></div><div class="ttdeci">void printQueriesScreen5()</div><div class="ttdoc">Função que imprime o menu das queries com a query 5 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00430">view.c:430</a></div></div>
+<div class="ttc" id="aview_8h_html_af4c7c8ee4b7ab181233475c1cb0650be"><div class="ttname"><a href="view_8h.html#af4c7c8ee4b7ab181233475c1cb0650be">printQueriesScreen7</a></div><div class="ttdeci">void printQueriesScreen7()</div><div class="ttdoc">Função que imprime o menu das queries com a query 7 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00488">view.c:488</a></div></div>
+<div class="ttc" id="aview_8h_html_ad8c5544359f3b538337d2e06b15acbc1"><div class="ttname"><a href="view_8h.html#ad8c5544359f3b538337d2e06b15acbc1">printQueriesScreen10</a></div><div class="ttdeci">void printQueriesScreen10()</div><div class="ttdoc">Função que imprime o menu das queries com a query 10 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00575">view.c:575</a></div></div>
+<div class="ttc" id="aview_8h_html_a227637da406e04e5116429edd3a3bbf9"><div class="ttname"><a href="view_8h.html#a227637da406e04e5116429edd3a3bbf9">printQueriesScreen2</a></div><div class="ttdeci">void printQueriesScreen2()</div><div class="ttdoc">Função que imprime o menu das queries com a query 2 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00343">view.c:343</a></div></div>
+<div class="ttc" id="aview_8h_html_adfff2052c786f07bbcc3a849e26d1872"><div class="ttname"><a href="view_8h.html#adfff2052c786f07bbcc3a849e26d1872">printQueriesScreen1</a></div><div class="ttdeci">void printQueriesScreen1()</div><div class="ttdoc">Função que imprime o menu das queries com a query 1 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00314">view.c:314</a></div></div>
+<div class="ttc" id="aview_8h_html_a15a14d134fce316017b505c8c466690d"><div class="ttname"><a href="view_8h.html#a15a14d134fce316017b505c8c466690d">printBuildingApp</a></div><div class="ttdeci">void printBuildingApp()</div><div class="ttdoc">Função que imprime o frame a dizer que a app está a ser construida.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00132">view.c:132</a></div></div>
+<div class="ttc" id="aview_8h_html_a3e8026ba321e89dc638e7ff4cbf86b8c"><div class="ttname"><a href="view_8h.html#a3e8026ba321e89dc638e7ff4cbf86b8c">printFrameBottom</a></div><div class="ttdeci">void printFrameBottom()</div><div class="ttdoc">Função que imprime o frame de baixo.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00029">view.c:29</a></div></div>
+<div class="ttc" id="aview_8h_html_ab69b0f35b3fe3bfc59fd77cf11a29665"><div class="ttname"><a href="view_8h.html#ab69b0f35b3fe3bfc59fd77cf11a29665">printLoadingUI</a></div><div class="ttdeci">void printLoadingUI()</div><div class="ttdoc">Função que imprime a interface de loading.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00667">view.c:667</a></div></div>
+<div class="ttc" id="acolors_8h_html"><div class="ttname"><a href="colors_8h.html">colors.h</a></div><div class="ttdoc">Ficheiro que contém as cores a serem usadas na interface da aplicação.</div></div>
+<div class="ttc" id="aview_8h_html_a1b9c8cfc6c66e22361644745e11dfada"><div class="ttname"><a href="view_8h.html#a1b9c8cfc6c66e22361644745e11dfada">paginacaoTop</a></div><div class="ttdeci">void paginacaoTop()</div><div class="ttdoc">Função que imprime o frame de cima da paginação.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00692">view.c:692</a></div></div>
+<div class="ttc" id="aview_8h_html_ad3b50b3b6fdfdc4aaebdb02e2089c022"><div class="ttname"><a href="view_8h.html#ad3b50b3b6fdfdc4aaebdb02e2089c022">printBuildingAppTime</a></div><div class="ttdeci">void printBuildingAppTime(int time)</div><div class="ttdoc">Função que imprime o frame a dizer com o tempo que demorou a tal ser efetuado.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00163">view.c:163</a></div></div>
+<div class="ttc" id="aview_8h_html_a0a2b1350b0f2771f21ac6451f7b4dde5"><div class="ttname"><a href="view_8h.html#a0a2b1350b0f2771f21ac6451f7b4dde5">printQueriesTop</a></div><div class="ttdeci">void printQueriesTop()</div><div class="ttdoc">Função que imprime o frame de cima das queries.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00259">view.c:259</a></div></div>
+<div class="ttc" id="aview_8h_html_ae6f832d3e50153ca00da1740d72b5143"><div class="ttname"><a href="view_8h.html#ae6f832d3e50153ca00da1740d72b5143">printLoadingRepos</a></div><div class="ttdeci">void printLoadingRepos()</div><div class="ttdoc">Função que imprime o frame a dizer que os repos estão a ser carregados.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00098">view.c:98</a></div></div>
+<div class="ttc" id="aview_8h_html_a94efa1b5653125a3206019b87c8a88e2"><div class="ttname"><a href="view_8h.html#a94efa1b5653125a3206019b87c8a88e2">printLoadingCommits</a></div><div class="ttdeci">void printLoadingCommits()</div><div class="ttdoc">Função que imprime o frame a dizer que os commits estão a ser carregados.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00067">view.c:67</a></div></div>
+<div class="ttc" id="aview_8h_html_af8bbb38ea958b48ee0c9b80c87fc6547"><div class="ttname"><a href="view_8h.html#af8bbb38ea958b48ee0c9b80c87fc6547">printQueriesScreen</a></div><div class="ttdeci">void printQueriesScreen()</div><div class="ttdoc">Função que imprime o menu das queries.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00285">view.c:285</a></div></div>
+<div class="ttc" id="aview_8h_html_a1664c620e23921460edd897d0ea9defa"><div class="ttname"><a href="view_8h.html#a1664c620e23921460edd897d0ea9defa">printPaginacaoBottom</a></div><div class="ttdeci">void printPaginacaoBottom()</div><div class="ttdoc">Função que imprime o frame de baixo da paginação.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00674">view.c:674</a></div></div>
+<div class="ttc" id="aview_8h_html_a25b5ebeda0f3df4272465bafa29e1bb7"><div class="ttname"><a href="view_8h.html#a25b5ebeda0f3df4272465bafa29e1bb7">printQueriesScreen8</a></div><div class="ttdeci">void printQueriesScreen8()</div><div class="ttdoc">Função que imprime o menu das queries com a query 8 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00517">view.c:517</a></div></div>
+<div class="ttc" id="aview_8h_html_a5879615ec328a41259f1224618d227de"><div class="ttname"><a href="view_8h.html#a5879615ec328a41259f1224618d227de">printQueriesScreen9</a></div><div class="ttdeci">void printQueriesScreen9()</div><div class="ttdoc">Função que imprime o menu das queries com a query 9 selecionada.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00546">view.c:546</a></div></div>
+<div class="ttc" id="aview_8h_html_ad826b40dcaf69f064a8ab79939811858"><div class="ttname"><a href="view_8h.html#ad826b40dcaf69f064a8ab79939811858">printDefaultScreen</a></div><div class="ttdeci">void printDefaultScreen()</div><div class="ttdoc">Função que imprime o default frame.</div><div class="ttdef"><b>Definition:</b> <a href="view_8c_source.html#l00234">view.c:234</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_d03cbfd2f64df20252359f4b8046046f.html">view</a></li><li class="navelem"><a class="el" href="view_8h.html">view.h</a></li>
+    <li class="footer">Gerado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>
